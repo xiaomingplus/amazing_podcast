@@ -2,7 +2,6 @@
 logs
 *.log
 .idea
-public/fm
 # Runtime data
 pids
 *.pid
