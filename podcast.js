@@ -1349,6 +1349,201 @@ feed.item({
     itunesDuration: 1590,
     itunesKeywords: ['虐狗','神奇海螺','四川大学','川大']
 });
+
+
+
+
+feed.item({
+    title:  '在川大，情侣应该去哪亲热？',
+    description: `神奇海螺第四季第10期来了！本期你将会听到:
+
+在川大，情侣应该去哪亲热？
+小吃城能不能不刷卡直接排队拿面？
+回复慢就是不喜欢吗？
+如何才能在川大的自行车长龙里求生存？
+究竟选择低分还是挂调这门课？
+千万别在晚上做决定！
+新出来的川大生活服务APP能做点啥？
+
+神奇海螺团队开启了支付宝赞助帐号:shenqihailuo@qq.com 欢迎小额赞助！
+感谢神奇海螺团队的幕后人员:
+台本:阿睡，曜么得，阿芽
+后期:诶杂
+`,
+    url: config.baseUrl+'/40.mp3', // link to the item
+    categories: ['Comedy'], // optional - array of item categories
+    author: 'scuinfo和零壹广播剧社出品', // optional - defaults to feed author property
+    date: 'Dec 11, 2016', // a format that js Date can parse.
+    lat: 30.67, //optional latitude field for GeoRSS
+    long: 104.06, //optional longitude field for GeoRSS
+    itunesAuthor: 'scuinfo和零壹广播剧社出品',
+    itunesExplicit: false,
+    enclosure : {url:config.baseUrl+'/40.mp3', file:'./public/fm/40.mp3'}, // optional enclosure
+    itunesSubtitle: '在川大，情侣应该去哪亲热？',
+    itunesSummary: `神奇海螺第四季第10期来了！本期你将会听到:
+
+在川大，情侣应该去哪亲热？
+小吃城能不能不刷卡直接排队拿面？
+回复慢就是不喜欢吗？
+如何才能在川大的自行车长龙里求生存？
+究竟选择低分还是挂调这门课？
+千万别在晚上做决定！
+新出来的川大生活服务APP能做点啥？
+
+神奇海螺团队开启了支付宝赞助帐号:shenqihailuo@qq.com 欢迎小额赞助！
+感谢神奇海螺团队的幕后人员:
+台本:阿睡，曜么得，阿芽
+后期:诶杂
+`,
+    itunesDuration: 1288,
+    itunesKeywords: ['情侣','神奇海螺','四川大学','川大']
+});
+
+
+
+feed.item({
+    title:  '如何顺利的通过期末考试？',
+    description: `神奇海螺第四季第11期来了！本期你将会听到:
+
+如何顺利的通过期末考试？
+电子学院为何会引起表白的浪潮？
+雾霾和彭州石化到底有没有关系？
+在川大如何科学的选课?
+神奇海螺为什么点名要招小黄文作者？
+谁在控制川大的断电与否？
+为什么商业街开这么多家奶茶店还是不便宜？
+
+神奇海螺团队开启了支付宝赞助帐号:shenqihailuo@qq.com 欢迎小额赞助！
+感谢神奇海螺团队的幕后人员:
+台本:北阳，芽芽
+后期:诶杂
+`,
+    url: config.baseUrl+'/41.mp3', // link to the item
+    categories: ['Comedy'], // optional - array of item categories
+    author: 'scuinfo和零壹广播剧社出品', // optional - defaults to feed author property
+    date: 'Dec 18, 2016', // a format that js Date can parse.
+    lat: 30.67, //optional latitude field for GeoRSS
+    long: 104.06, //optional longitude field for GeoRSS
+    itunesAuthor: 'scuinfo和零壹广播剧社出品',
+    itunesExplicit: false,
+    enclosure : {url:config.baseUrl+'/41.mp3', file:'./public/fm/41.mp3'}, // optional enclosure
+    itunesSubtitle: '如何顺利的通过期末考试？',
+    itunesSummary: `神奇海螺第四季第11期来了！本期你将会听到:
+
+如何顺利的通过期末考试？
+电子学院为何会引起表白的浪潮？
+雾霾和彭州石化到底有没有关系？
+在川大如何科学的选课?
+神奇海螺为什么点名要招小黄文作者？
+谁在控制川大的断电与否？
+为什么商业街开这么多家奶茶店还是不便宜？
+
+神奇海螺团队开启了支付宝赞助帐号:shenqihailuo@qq.com 欢迎小额赞助！
+感谢神奇海螺团队的幕后人员:
+台本:北阳，芽芽
+后期:诶杂
+`,
+    itunesDuration: 1473,
+    itunesKeywords: ['情侣','神奇海螺','四川大学','川大']
+});
+
+
+
+feed.item({
+    title:  '加油吃！你是最胖的！#春节特辑',
+    description: `神奇海螺第四季春节特辑来了！本期你将会听到:
+
+2016年川大的这10大事件
+你的寒假计划怎么样了？
+被人喊“师傅”是怎样的体验？
+我的寒假相亲日记
+你上了四川哪个大学啊？
+寒假回家多了一个弟弟。
+听完神奇海螺制作团队全员的声音会不会让人怀孕
+
+神奇海螺团队开启了支付宝赞助帐号:shenqihailuo@qq.com 欢迎小额赞助！
+感谢神奇海螺团队的幕后人员:
+台本:台本组全体人员
+后期:诶杂
+`,
+    url: config.baseUrl+'/42.mp3', // link to the item
+    categories: ['Comedy'], // optional - array of item categories
+    author: 'scuinfo和零壹广播剧社出品', // optional - defaults to feed author property
+    date: 'Jan 28, 2017', // a format that js Date can parse.
+    lat: 30.67, //optional latitude field for GeoRSS
+    long: 104.06, //optional longitude field for GeoRSS
+    itunesAuthor: 'scuinfo和零壹广播剧社出品',
+    itunesExplicit: false,
+    enclosure : {url:config.baseUrl+'/42.mp3', file:'./public/fm/42.mp3'}, // optional enclosure
+    itunesSubtitle: '加油吃！你是最胖的！#春节特辑',
+    itunesSummary: `神奇海螺第四季春节特辑来了！本期你将会听到:
+
+2016年川大的这10大事件
+你的寒假计划怎么样了？
+被人喊“师傅”是怎样的体验？
+我的寒假相亲日记
+你上了四川哪个大学啊？
+寒假回家多了一个弟弟。
+听完神奇海螺制作团队全员的声音会不会让人怀孕
+
+神奇海螺团队开启了支付宝赞助帐号:shenqihailuo@qq.com 欢迎小额赞助！
+感谢神奇海螺团队的幕后人员:
+台本:台本组全体人员
+后期:诶杂
+`,
+    itunesDuration: 2049,
+    itunesKeywords: ['情侣','神奇海螺','四川大学','川大']
+});
+
+
+
+
+
+feed.item({
+    title:  '结束了二十年单身之后的这一年',
+    description: `神奇海螺第五季第一期来了！本期你将会听到:
+
+成都天气迟迟不肯回暖，海螺呼吁各方保持克制。
+寝室撕X攻略
+我川图书馆为何刚开学就座无虚席？
+夫妻肺片该不该为没有夫妻道歉？
+体测又开始了，什么时候报名最合适？
+结束了二十年单身之后的这一年
+震惊！学校面包店里的生产日期竟然被...
+
+神奇海螺团队开启了支付宝赞助帐号:shenqihailuo@qq.com 欢迎小额赞助！
+感谢神奇海螺团队的幕后人员:
+台本:北阳，阿芽
+后期:诶杂
+`,
+    url: config.baseUrl+'/43.mp3', // link to the item
+    categories: ['Comedy'], // optional - array of item categories
+    author: 'scuinfo和零壹广播剧社出品', // optional - defaults to feed author property
+    date: 'Mar 28, 2017', // a format that js Date can parse.
+    lat: 30.67, //optional latitude field for GeoRSS
+    long: 104.06, //optional longitude field for GeoRSS
+    itunesAuthor: 'scuinfo和零壹广播剧社出品',
+    itunesExplicit: false,
+    enclosure : {url:config.baseUrl+'/43.mp3', file:'./public/fm/43.mp3'}, // optional enclosure
+    itunesSubtitle: '结束了二十年单身之后的这一年',
+    itunesSummary: `神奇海螺第五季第一期来了！本期你将会听到:
+
+成都天气迟迟不肯回暖，海螺呼吁各方保持克制。
+寝室撕X攻略
+我川图书馆为何刚开学就座无虚席？
+夫妻肺片该不该为没有夫妻道歉？
+体测又开始了，什么时候报名最合适？
+结束了二十年单身之后的这一年
+震惊！学校面包店里的生产日期竟然被...
+
+神奇海螺团队开启了支付宝赞助帐号:shenqihailuo@qq.com 欢迎小额赞助！
+感谢神奇海螺团队的幕后人员:
+台本:北阳，阿芽
+后期:诶杂
+`,
+    itunesDuration: 1252,
+    itunesKeywords: ['单身','神奇海螺','四川大学','川大']
+});
 // cache the xml to send to clients
 var xml = feed.xml();
 
