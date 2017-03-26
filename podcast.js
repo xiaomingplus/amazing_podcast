@@ -20,7 +20,7 @@ var feed = new Podcast({
     docs: config.siteUrl+'/docs.html',
     managingEditor: 'scuweb@gmail.com (scuinfo)',
     webMaster: 'scuweb@gmail.com (scuinfo)',
-    copyright: '2015 scuinfo',
+    copyright: '2017 scuinfo',
     language: 'zh-CN',
     itunesCategory: 'Comedy',
 
@@ -1519,7 +1519,7 @@ feed.item({
     url: config.baseUrl+'/43.mp3', // link to the item
     categories: ['Comedy'], // optional - array of item categories
     author: 'scuinfo和零壹广播剧社出品', // optional - defaults to feed author property
-    date: 'Mar 28, 2017', // a format that js Date can parse.
+    date: 'Mar 18, 2017', // a format that js Date can parse.
     lat: 30.67, //optional latitude field for GeoRSS
     long: 104.06, //optional longitude field for GeoRSS
     itunesAuthor: 'scuinfo和零壹广播剧社出品',
@@ -1543,6 +1543,55 @@ feed.item({
 `,
     itunesDuration: 1252,
     itunesKeywords: ['单身','神奇海螺','四川大学','川大']
+});
+
+
+feed.item({
+    title:  '扒一扒川大的男女寝室',
+    description: `神奇海螺第五季第2期来了！本期你将会听到:
+
+看到前女友在晒现任的照片是怎样的一种感受？
+川大脱单率最高的学院是哪一个？
+为什么鸡腿套饭比鸡腿都要便宜？
+扒一扒川大的男女寝室
+喜欢陈粒的男同学就是弯的吗？
+没洗头的时候遇到前任和前任的现任是怎样的一种体验？
+让北方朋友沉默,南方朋友流泪的成都天气，到底什么时候回暖？？？
+海螺怎么看待玻璃杯事件？
+
+神奇海螺团队开启了支付宝赞助帐号:shenqihailuo@qq.com 欢迎小额赞助！
+感谢神奇海螺团队的幕后人员:
+台本:北阳，阿芽
+后期:诶杂
+`,
+    url: config.baseUrl+'/44.mp3', // link to the item
+    categories: ['Comedy'], // optional - array of item categories
+    author: 'scuinfo和零壹广播剧社出品', // optional - defaults to feed author property
+    date: 'Mar 26, 2017', // a format that js Date can parse.
+    lat: 30.67, //optional latitude field for GeoRSS
+    long: 104.06, //optional longitude field for GeoRSS
+    itunesAuthor: 'scuinfo和零壹广播剧社出品',
+    itunesExplicit: false,
+    enclosure : {url:config.baseUrl+'/44.mp3', file:'./public/fm/44.mp3'}, // optional enclosure
+    itunesSubtitle: '扒一扒川大的男女寝室',
+    itunesSummary: `神奇海螺第五季第2期来了！本期你将会听到:
+
+看到前女友在晒现任的照片是怎样的一种感受？
+川大脱单率最高的学院是哪一个？
+为什么鸡腿套饭比鸡腿都要便宜？
+扒一扒川大的男女寝室
+喜欢陈粒的男同学就是弯的吗？
+没洗头的时候遇到前任和前任的现任是怎样的一种体验？
+让北方朋友沉默,南方朋友流泪的成都天气，到底什么时候回暖？？？
+海螺怎么看待玻璃杯事件？
+
+神奇海螺团队开启了支付宝赞助帐号:shenqihailuo@qq.com 欢迎小额赞助！
+感谢神奇海螺团队的幕后人员:
+台本:北阳，阿芽
+后期:诶杂
+`,
+    itunesDuration: 1408,
+    itunesKeywords: ['寝室','神奇海螺','四川大学','川大']
 });
 // cache the xml to send to clients
 var xml = feed.xml();
