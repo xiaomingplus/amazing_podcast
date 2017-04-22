@@ -1593,6 +1593,169 @@ feed.item({
     itunesDuration: 1408,
     itunesKeywords: ['寝室','神奇海螺','四川大学','川大']
 });
+
+
+
+feed.item({
+    title:  '该不该在公用洗衣机里洗内衣？',
+    description: `神奇海螺第五季第3期来了！本期你将会听到:
+
+你会因校园卡头像太丑而不想找回它吗？
+尊贵的川大黄钻贵族看了之后会沉默的东西是什么？
+一个人的清明小长假要怎么过？
+为了她来到川大，却庆幸她和跑车男在一起。
+如何面对合唱比赛制造的噪音？
+如何偶遇神奇海螺的制作团队？
+
+神奇海螺团队开启了支付宝赞助帐号:shenqihailuo@qq.com 欢迎小额赞助！
+感谢神奇海螺团队的幕后人员:
+台本:北阳，阿芽
+后期:诶杂
+`,
+    url: config.baseUrl+'/45.mp3', // link to the item
+    categories: ['Comedy'], // optional - array of item categories
+    author: 'scuinfo和零壹广播剧社出品', // optional - defaults to feed author property
+    date: 'Apr 3, 2017', // a format that js Date can parse.
+    lat: 30.67, //optional latitude field for GeoRSS
+    long: 104.06, //optional longitude field for GeoRSS
+    itunesAuthor: 'scuinfo和零壹广播剧社出品',
+    itunesExplicit: false,
+    enclosure : {url:config.baseUrl+'/45.mp3', file:'./public/fm/45.mp3'}, // optional enclosure
+    itunesSubtitle: '该不该在公用洗衣机里洗内衣？',
+    itunesSummary: `神奇海螺第五季第3期来了！本期你将会听到:
+
+你会因校园卡头像太丑而不想找回它吗？
+尊贵的川大黄钻贵族看了之后会沉默的东西是什么？
+一个人的清明小长假要怎么过？
+为了她来到川大，却庆幸她和跑车男在一起。
+如何面对合唱比赛制造的噪音？
+如何偶遇神奇海螺的制作团队？
+
+神奇海螺团队开启了支付宝赞助帐号:shenqihailuo@qq.com 欢迎小额赞助！
+感谢神奇海螺团队的幕后人员:
+台本:北阳，阿芽
+后期:诶杂
+`,
+    itunesDuration: 1457,
+    itunesKeywords: ['洗衣机','神奇海螺','四川大学','川大']
+});
+
+
+
+feed.item({
+    title:  '在校医院里整容是一种怎样的体验？',
+    description: `神奇海螺第五季第4期来了！本期你将会听到:
+
+我们该把沃森的白板裱起来吗？
+如何心平气和的去讲道理？
+为什么资产阶级不用写实验报告？
+某同学网购液压钳打击共享单车私有化
+川大地中海风寝室走红网络
+在校医院里整容是一种怎样的体验？
+在自习室戳破奶茶是一种怎样的体验？
+
+神奇海螺团队开启了支付宝赞助帐号:shenqihailuo@qq.com 欢迎小额赞助！
+感谢神奇海螺团队的幕后人员:
+台本:北阳，阿芽
+后期:诶杂
+`,
+    url: config.baseUrl+'/46.mp3', // link to the item
+    categories: ['Comedy'], // optional - array of item categories
+    author: 'scuinfo和零壹广播剧社出品', // optional - defaults to feed author property
+    date: 'Apr 9, 2017', // a format that js Date can parse.
+    lat: 30.67, //optional latitude field for GeoRSS
+    long: 104.06, //optional longitude field for GeoRSS
+    itunesAuthor: 'scuinfo和零壹广播剧社出品',
+    itunesExplicit: false,
+    enclosure : {url:config.baseUrl+'/46.mp3', file:'./public/fm/46.mp3'}, // optional enclosure
+    itunesSubtitle: '在校医院里整容是一种怎样的体验？',
+    itunesSummary: `神奇海螺第五季第4期来了！本期你将会听到:
+
+我们该把沃森的白板裱起来吗？
+如何心平气和的去讲道理？
+为什么资产阶级不用写实验报告？
+某同学网购液压钳打击共享单车私有化
+川大地中海风寝室走红网络
+在校医院里整容是一种怎样的体验？
+在自习室戳破奶茶是一种怎样的体验？
+
+神奇海螺团队开启了支付宝赞助帐号:shenqihailuo@qq.com 欢迎小额赞助！
+感谢神奇海螺团队的幕后人员:
+台本:北阳，阿芽
+后期:诶杂
+`,
+    itunesDuration: 1455,
+    itunesKeywords: ['整容','神奇海螺','四川大学','川大']
+});
+
+
+feed.item({
+    title:  '室友明晚就要脱单，我该怎么办？',
+    description: `神奇海螺第五季第5期来了！本期你将会听到:
+
+你听过最虐心的话是？
+在100斤的世界里是怎样的一种体验？
+你赞成毕业包分配对象吗？
+室友明晚就要脱单，我该怎么办？
+耳朵太好是一种怎样的体验？
+震惊！比云歌然还要弱小的男生竟然是...
+川大共享单车停车乱象
+该不该给长桥安装传送带？
+在川大，如何才能紧跟潮流？
+
+神奇海螺团队开启了支付宝赞助帐号:shenqihailuo@qq.com 欢迎小额赞助！
+感谢神奇海螺团队的幕后人员:
+台本:北阳，阿芽
+后期:诶杂
+
+------
+炎炎夏日又将袭来，最解暑的莫过于听鬼故事了。川大也代代相传着一些故事。无论是二基楼的迷宫，还是华西的钟楼女鬼，你听说过哪些川大的灵异故事呢？
+
+神奇海螺推出夏日特别企划“百鬼夜谈”，征集大家听说过的川大鬼故事。除了传说以外，你也可以向我们分享，你来到川大后亲生经历的灵异事件。我们将选出令人毛骨悚然的故事入选本次特别企划。所有入选节目的稿件都将获得精美小礼品，同时，最精彩的故事将额外得到100元悬赏金。
+
+投稿方式请访问scuinfo.com发帖#川大灵异事件#+完整的故事，我们诚邀你一起加入，百鬼夜谈。
+
+你也可以直接点此链接分享你的故事 http://t.cn/RXcJeQL
+`,
+    url: config.baseUrl+'/47.mp3', // link to the item
+    categories: ['Comedy'], // optional - array of item categories
+    author: 'scuinfo和零壹广播剧社出品', // optional - defaults to feed author property
+    date: 'Apr 16, 2017', // a format that js Date can parse.
+    lat: 30.67, //optional latitude field for GeoRSS
+    long: 104.06, //optional longitude field for GeoRSS
+    itunesAuthor: 'scuinfo和零壹广播剧社出品',
+    itunesExplicit: false,
+    enclosure : {url:config.baseUrl+'/47.mp3', file:'./public/fm/47.mp3'}, // optional enclosure
+    itunesSubtitle: '室友明晚就要脱单，我该怎么办？',
+    itunesSummary: `神奇海螺第五季第5期来了！本期你将会听到:
+
+你听过最虐心的话是？
+在100斤的世界里是怎样的一种体验？
+你赞成毕业包分配对象吗？
+室友明晚就要脱单，我该怎么办？
+耳朵太好是一种怎样的体验？
+震惊！比云歌然还要弱小的男生竟然是...
+川大共享单车停车乱象
+该不该给长桥安装传送带？
+在川大，如何才能紧跟潮流？
+
+神奇海螺团队开启了支付宝赞助帐号:shenqihailuo@qq.com 欢迎小额赞助！
+感谢神奇海螺团队的幕后人员:
+台本:北阳，阿芽
+后期:诶杂
+
+------
+炎炎夏日又将袭来，最解暑的莫过于听鬼故事了。川大也代代相传着一些故事。无论是二基楼的迷宫，还是华西的钟楼女鬼，你听说过哪些川大的灵异故事呢？
+
+神奇海螺推出夏日特别企划“百鬼夜谈”，征集大家听说过的川大鬼故事。除了传说以外，你也可以向我们分享，你来到川大后亲生经历的灵异事件。我们将选出令人毛骨悚然的故事入选本次特别企划。所有入选节目的稿件都将获得精美小礼品，同时，最精彩的故事将额外得到100元悬赏金。
+
+投稿方式请访问scuinfo.com发帖#川大灵异事件#+完整的故事，我们诚邀你一起加入，百鬼夜谈。
+
+你也可以直接点此链接分享你的故事 http://t.cn/RXcJeQL
+`,
+    itunesDuration: 1455,
+    itunesKeywords: ['脱单','神奇海螺','四川大学','川大']
+});
 // cache the xml to send to clients
 var xml = feed.xml();
 

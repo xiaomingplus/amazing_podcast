@@ -16,6 +16,6 @@ var config = {
  */
 
 
-upyun.uploadFile('/podcast/43.mp3', './public/fm/43.mp3', 'audio/mpeg', true,function(e,r){
+upyun.uploadFile('/podcast/47.mp3', './public/fm/47.mp3', 'audio/mpeg', true,function(e,r){
 console.log(e,r);
 });
