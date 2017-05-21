@@ -1756,6 +1756,276 @@ feed.item({
     itunesDuration: 1455,
     itunesKeywords: ['脱单','神奇海螺','四川大学','川大']
 });
+
+feed.item({
+    title:  '惊悚川大',
+    description: `神奇海螺第五季第6期来了！本期你将会听到:
+
+那些让你毛骨悚然的川大灵异事件
+23岁的他凭什么已经谈了好几个上亿的项目？
+单纯的小白兔男生就活该被睡吗？
+进错女厕所，如何优雅的出来？
+如何面对喜欢的男生是个gay这件事？
+全班只有4名男生，看恋爱技巧有用吗？
+人美到底要不要多读书？
+川大要开整容公选课了吗？
+沃森用过的马克笔的最终下落
+
+神奇海螺团队开启了支付宝赞助帐号:shenqihailuo@qq.com 欢迎小额赞助！
+感谢神奇海螺团队的幕后人员:
+台本:北阳，阿芽
+后期:诶杂
+
+------
+我们或许都有过这样的时刻，看朋友圈刷屏的剧；玩最近爆款的游戏；去并不想唱的 KTV；刷不想刷的夜。或者只是参加集体活动时，跟着发活动照片到朋友圈，互相点赞；或者只是聊天时强行发出的“哈哈哈哈哈哈哈哈”。
+
+我们中大多数人，都尝试过合群，那么你呢？
+
+为了合群，你都做过什么？现在回想起来你觉得值得吗？如果你从来没有尝试过去合群，或者决定你不需要再合群了，又是什么原因使得你能做出这样的决定？
+
+请告诉我们你的故事吧。
+
+投稿方式请访问scuinfo.com发帖【#合群#+完整的故事】我们将精选出大家的故事进入下期节目。
+
+你也可以直接点此链接分享你的故事 http://t.cn/RXOARmI
+`,
+    url: config.baseUrl+'/48.mp3', // link to the item
+    categories: ['Comedy'], // optional - array of item categories
+    author: 'scuinfo和零壹广播剧社出品', // optional - defaults to feed author property
+    date: 'Apr 23, 2017', // a format that js Date can parse.
+    lat: 30.67, //optional latitude field for GeoRSS
+    long: 104.06, //optional longitude field for GeoRSS
+    itunesAuthor: 'scuinfo和零壹广播剧社出品',
+    itunesExplicit: false,
+    enclosure : {url:config.baseUrl+'/48.mp3', file:'./public/fm/48.mp3'}, // optional enclosure
+    itunesSubtitle: '惊悚川大',
+    itunesSummary: `神奇海螺第五季第6期来了！本期你将会听到:
+
+那些让你毛骨悚然的川大灵异事件
+23岁的他凭什么已经谈了好几个上亿的项目？
+单纯的小白兔男生就活该被睡吗？
+进错女厕所，如何优雅的出来？
+如何面对喜欢的男生是个gay这件事？
+全班只有4名男生，看恋爱技巧有用吗？
+人美到底要不要多读书？
+川大要开整容公选课了吗？
+沃森用过的马克笔的最终下落
+
+神奇海螺团队开启了支付宝赞助帐号:shenqihailuo@qq.com 欢迎小额赞助！
+感谢神奇海螺团队的幕后人员:
+台本:北阳，阿芽
+后期:诶杂
+
+------
+我们或许都有过这样的时刻，看朋友圈刷屏的剧；玩最近爆款的游戏；去并不想唱的 KTV；刷不想刷的夜。或者只是参加集体活动时，跟着发活动照片到朋友圈，互相点赞；或者只是聊天时强行发出的“哈哈哈哈哈哈哈哈”。
+
+我们中大多数人，都尝试过合群，那么你呢？
+
+为了合群，你都做过什么？现在回想起来你觉得值得吗？如果你从来没有尝试过去合群，或者决定你不需要再合群了，又是什么原因使得你能做出这样的决定？
+
+请告诉我们你的故事吧。
+
+投稿方式请访问scuinfo.com发帖【#合群#+完整的故事】我们将精选出大家的故事进入下期节目。
+
+你也可以直接点此链接分享你的故事 http://t.cn/RXOARmI
+`,
+    itunesDuration: 1792,
+    itunesKeywords: ['惊悚川大','神奇海螺','四川大学','川大']
+});
+
+feed.item({
+    title:  '为了合群，你都做过哪些事？',
+    description: `神奇海螺第五季第7期来了！本期你将会听到:
+
+饿的时候要怎样克服？
+“要抱抱”为何变成“美的才抱抱”活动？
+没有期中考的人是怎样的一种体验？
+IFS的大熊猫为何对求婚不为所动？
+姨妈来的时候有一个男票的作用是？
+该不该曝光乱停自行车的同学？
+为什么五四放假半天学生却怨声载道？
+一个爱说梦话的室友是有多恐怖？
+
+神奇海螺团队开启了支付宝赞助帐号:shenqihailuo@qq.com 欢迎小额赞助！
+感谢神奇海螺团队的幕后人员:
+台本:北阳，阿芽
+后期:诶杂
+
+------
+在大学有没有做了什么事让你感觉：“幸好做了这件事，不然我的大学就不完美”，如果有，那么请告诉我们你的故事吧。
+
+下期话题：#在大学幸好做了的事#
+
+投稿方式请访问scuinfo.com发帖【#在大学幸好做了的事#+完整的故事】我们将精选出大家的故事进入下期节目。
+
+你也可以直接点此链接分享你的故事 http://t.cn/RaGxuWl
+`,
+    url: config.baseUrl+'/49.mp3', // link to the item
+    categories: ['Comedy'], // optional - array of item categories
+    author: 'scuinfo和零壹广播剧社出品', // optional - defaults to feed author property
+    date: 'May 7, 2017', // a format that js Date can parse.
+    lat: 30.67, //optional latitude field for GeoRSS
+    long: 104.06, //optional longitude field for GeoRSS
+    itunesAuthor: 'scuinfo和零壹广播剧社出品',
+    itunesExplicit: false,
+    enclosure : {url:config.baseUrl+'/49.mp3', file:'./public/fm/49.mp3'}, // optional enclosure
+    itunesSubtitle: '为了合群，你都做过哪些事？',
+    itunesSummary: `神奇海螺第五季第7期来了！本期你将会听到:
+
+饿的时候要怎样克服？
+“要抱抱”为何变成“美的才抱抱”活动？
+没有期中考的人是怎样的一种体验？
+IFS的大熊猫为何对求婚不为所动？
+姨妈来的时候有一个男票的作用是？
+该不该曝光乱停自行车的同学？
+为什么五四放假半天学生却怨声载道？
+一个爱说梦话的室友是有多恐怖？
+
+神奇海螺团队开启了支付宝赞助帐号:shenqihailuo@qq.com 欢迎小额赞助！
+感谢神奇海螺团队的幕后人员:
+台本:北阳，阿芽
+后期:诶杂
+
+------
+在大学有没有做了什么事让你感觉：“幸好做了这件事，不然我的大学就不完美”，如果有，那么请告诉我们你的故事吧。
+
+下期话题：#在大学幸好做了的事#
+
+投稿方式请访问scuinfo.com发帖【#在大学幸好做了的事#+完整的故事】我们将精选出大家的故事进入下期节目。
+
+你也可以直接点此链接分享你的故事 http://t.cn/RaGxuWl
+`,
+    itunesDuration: 1327,
+    itunesKeywords: ['合群','神奇海螺','四川大学','川大']
+});
+
+feed.item({
+    title:  '作为川大的男同学,如何优雅的打伞走过长桥？',
+    description: `神奇海螺第五季第8期来了！本期你将会听到:
+
+他们说：在大学里幸好做了什么？
+华西电梯事件
+你为什么要选择原谅他呢？
+如何应对体育理论考试？
+为什么英语听力里男女播音员要吞咽口水？
+每个月最惨的事情是什么？
+作为川大的男同学如何优雅的打伞走过长桥？
+
+神奇海螺团队开启了支付宝赞助帐号:shenqihailuo@qq.com 欢迎小额赞助！
+感谢神奇海螺团队的幕后人员:
+台本:北阳，阿芽
+后期:诶杂
+
+------
+下期话题：在下雨天，你会不会邀请没带伞的陌生人来一起打伞呢？怎么邀请？对同性和异性有什么不同？欢迎参与我们的讨论。
+
+下期话题：#下雨天要不要邀请陌生人一起打伞#
+
+投稿方式请访问scuinfo.com发帖【#下雨天要不要邀请陌生人一起打伞#+完整的故事】我们将精选出大家的故事进入下期节目。
+
+你也可以直接点此链接分享你的故事 http://t.cn/RaNDzcA
+`,
+    url: config.baseUrl+'/50.mp3', // link to the item
+    categories: ['Comedy'], // optional - array of item categories
+    author: 'scuinfo和零壹广播剧社出品', // optional - defaults to feed author property
+    date: 'May 14, 2017', // a format that js Date can parse.
+    lat: 30.67, //optional latitude field for GeoRSS
+    long: 104.06, //optional longitude field for GeoRSS
+    itunesAuthor: 'scuinfo和零壹广播剧社出品',
+    itunesExplicit: false,
+    enclosure : {url:config.baseUrl+'/50.mp3', file:'./public/fm/50.mp3'}, // optional enclosure
+    itunesSubtitle: '作为川大的男同学,如何优雅的打伞走过长桥？',
+    itunesSummary: `神奇海螺第五季第8期来了！本期你将会听到:
+
+他们说：在大学里幸好做了什么？
+华西电梯事件
+你为什么要选择原谅他呢？
+如何应对体育理论考试？
+为什么英语听力里男女播音员要吞咽口水？
+每个月最惨的事情是什么？
+作为川大的男同学如何优雅的打伞走过长桥？
+
+神奇海螺团队开启了支付宝赞助帐号:shenqihailuo@qq.com 欢迎小额赞助！
+感谢神奇海螺团队的幕后人员:
+台本:北阳，阿芽
+后期:诶杂
+
+------
+下期话题：在下雨天，你会不会邀请没带伞的陌生人来一起打伞呢？怎么邀请？对同性和异性有什么不同？欢迎参与我们的讨论。
+
+下期话题：#下雨天要不要邀请陌生人一起打伞#
+
+投稿方式请访问scuinfo.com发帖【#下雨天要不要邀请陌生人一起打伞#+完整的故事】我们将精选出大家的故事进入下期节目。
+
+你也可以直接点此链接分享你的故事 http://t.cn/RaNDzcA
+`,
+    itunesDuration: 1722,
+    itunesKeywords: ['打伞','神奇海螺','四川大学','川大']
+});
+
+feed.item({
+    title:  '只想好好学习不想谈恋爱错了吗？',
+    description: `神奇海螺第五季第9期来了！本期你将会听到:
+
+只想好好学习不想谈恋爱错了吗？
+公选课上如何优雅的与Ta发生故事？
+把天聊死的技能是怎样点亮的？
+室友打呼噜我该怎么办?
+如何才能通过info上的临时男友招聘？
+下雨天要不要和陌生人一起打伞？
+从180斤到110斤，他身上发生了什么？
+
+神奇海螺团队开启了支付宝赞助帐号:shenqihailuo@qq.com 欢迎小额赞助！
+感谢神奇海螺团队的幕后人员:
+台本:北阳，阿芽，维拉德
+后期:诶杂
+
+------
+下期话题：你被秀过最狠的恩爱是？欢迎参与我们的讨论。
+
+下期话题：#被秀过最狠的恩爱#
+
+投稿方式请访问scuinfo.com发帖【#被秀过最狠的恩爱#+完整的故事】我们将精选出大家的故事进入下期节目。
+
+你也可以直接点此链接分享你的故事 http://t.cn/RaBalR1
+`,
+    url: config.baseUrl+'/51.mp3', // link to the item
+    categories: ['Comedy'], // optional - array of item categories
+    author: 'scuinfo和零壹广播剧社出品', // optional - defaults to feed author property
+    date: 'May 21, 2017', // a format that js Date can parse.
+    lat: 30.67, //optional latitude field for GeoRSS
+    long: 104.06, //optional longitude field for GeoRSS
+    itunesAuthor: 'scuinfo和零壹广播剧社出品',
+    itunesExplicit: false,
+    enclosure : {url:config.baseUrl+'/51.mp3', file:'./public/fm/51.mp3'}, // optional enclosure
+    itunesSubtitle: '只想好好学习不想谈恋爱错了吗？',
+    itunesSummary: `神奇海螺第五季第8期来了！本期你将会听到:
+
+他们说：在大学里幸好做了什么？
+华西电梯事件
+你为什么要选择原谅他呢？
+如何应对体育理论考试？
+为什么英语听力里男女播音员要吞咽口水？
+每个月最惨的事情是什么？
+作为川大的男同学如何优雅的打伞走过长桥？
+
+神奇海螺团队开启了支付宝赞助帐号:shenqihailuo@qq.com 欢迎小额赞助！
+感谢神奇海螺团队的幕后人员:
+台本:北阳，阿芽
+后期:诶杂
+
+------
+下期话题：在下雨天，你会不会邀请没带伞的陌生人来一起打伞呢？怎么邀请？对同性和异性有什么不同？欢迎参与我们的讨论。
+
+下期话题：#下雨天要不要邀请陌生人一起打伞#
+
+投稿方式请访问scuinfo.com发帖【#下雨天要不要邀请陌生人一起打伞#+完整的故事】我们将精选出大家的故事进入下期节目。
+
+你也可以直接点此链接分享你的故事 http://t.cn/RaBalR1
+`,
+    itunesDuration: 1648,
+    itunesKeywords: ['学习','神奇海螺','四川大学','川大']
+});
 // cache the xml to send to clients
 var xml = feed.xml();
 
