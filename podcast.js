@@ -2026,6 +2026,111 @@ feed.item({
     itunesDuration: 1648,
     itunesKeywords: ['学习','神奇海螺','四川大学','川大']
 });
+
+feed.item({
+    title:  '川大的女生会介意男同学的腿毛吗？',
+    description: `神奇海螺第五季第10期来了,本期是神奇海螺第五季大结局，你将会听到:
+
+是不是颜值越高的越难脱单？
+川大的女生会介意男同学的腿毛吗？
+这个端午节，你牛逼了吗？
+视奸前男友的现任上瘾是一种怎样的体验？
+你被秀过最狠的恩爱是？
+球场的三大错觉是？
+穿女票的短裙去上自习是一种怎样的体验？
+补考和缺考新规分析
+
+神奇海螺团队开启了支付宝赞助帐号:shenqihailuo@qq.com 欢迎小额赞助！
+感谢神奇海螺团队的幕后人员:
+台本:北阳，阿芽，维拉德
+后期:诶杂
+
+`,
+    url: config.baseUrl+'/52.mp3', // link to the item
+    categories: ['Comedy'], // optional - array of item categories
+    author: 'scuinfo和零壹广播剧社出品', // optional - defaults to feed author property
+    date: 'Jun 4, 2017', // a format that js Date can parse.
+    lat: 30.67, //optional latitude field for GeoRSS
+    long: 104.06, //optional longitude field for GeoRSS
+    itunesAuthor: 'scuinfo和零壹广播剧社出品',
+    itunesExplicit: false,
+    enclosure : {url:config.baseUrl+'/52.mp3', file:'./public/fm/52.mp3'}, // optional enclosure
+    itunesSubtitle: '川大的女生会介意男同学的腿毛吗？',
+    itunesSummary: `神奇海螺第五季第10期来了,本期是神奇海螺第五季大结局，你将会听到:
+
+是不是颜值越高的越难脱单？
+川大的女生会介意男同学的腿毛吗？
+这个端午节，你牛逼了吗？
+视奸前男友的现任上瘾是一种怎样的体验？
+你被秀过最狠的恩爱是？
+球场的三大错觉是？
+穿女票的短裙去上自习是一种怎样的体验？
+补考和缺考新规分析
+
+神奇海螺团队开启了支付宝赞助帐号:shenqihailuo@qq.com 欢迎小额赞助！
+感谢神奇海螺团队的幕后人员:
+台本:北阳，阿芽，维拉德
+后期:诶杂
+`,
+    itunesDuration: 1527,
+    itunesKeywords: ['颜值','神奇海螺','四川大学','川大']
+});
+
+feed.item({
+    title:  '从前的军训情侣们如何约会？',
+    description: `神奇海螺第五季暑期特辑来了，本期你将会听到:
+
+旅行中都有哪些可遇不可求的事？
+究竟是什么让学长愿意用小学期的课换军训？
+和网红女主播在一个寝室是一种怎样的体验？
+为什么外国同学问我是不是要打仗了？
+从前的军训情侣们如何约会？
+校车站什么时候才能兑现要增加班次的承诺？
+如何有效驱逐蚊子？
+你认为王者荣耀陷害了人生吗？
+
+神奇海螺网易云音乐已经开通了赞赏功能，请下载网易云音乐最新版打开神奇海螺给制作组丢个鸡腿~
+
+同时神奇海螺也接受支付宝小额赞助，赞助帐号:shenqihailuo@qq.com 欢迎小额赞助！
+感谢神奇海螺团队的幕后人员:
+台本:北阳，阿芽，维拉德
+后期:诶杂
+
+
+`,
+    url: config.baseUrl+'/53.mp3', // link to the item
+    categories: ['Comedy'], // optional - array of item categories
+    author: 'scuinfo和零壹广播剧社出品', // optional - defaults to feed author property
+    date: 'Jul 16, 2017', // a format that js Date can parse.
+    lat: 30.67, //optional latitude field for GeoRSS
+    long: 104.06, //optional longitude field for GeoRSS
+    itunesAuthor: 'scuinfo和零壹广播剧社出品',
+    itunesExplicit: false,
+    enclosure : {url:config.baseUrl+'/53.mp3', file:'./public/fm/53.mp3'}, // optional enclosure
+    itunesSubtitle: '从前的军训情侣们如何约会？',
+    itunesSummary: `神奇海螺第五季暑期特辑来了，本期你将会听到:
+
+旅行中都有哪些可遇不可求的事？
+究竟是什么让学长愿意用小学期的课换军训？
+和网红女主播在一个寝室是一种怎样的体验？
+为什么外国同学问我是不是要打仗了？
+从前的军训情侣们如何约会？
+校车站什么时候才能兑现要增加班次的承诺？
+如何有效驱逐蚊子？
+你认为王者荣耀陷害了人生吗？
+
+神奇海螺网易云音乐已经开通了赞赏功能，请下载网易云音乐最新版打开神奇海螺给制作组丢个鸡腿~
+
+同时神奇海螺也接受支付宝小额赞助，赞助帐号:shenqihailuo@qq.com 欢迎小额赞助！
+感谢神奇海螺团队的幕后人员:
+台本:北阳，阿芽，维拉德
+后期:诶杂
+
+
+`,
+    itunesDuration: 2666,
+    itunesKeywords: ['约会','神奇海螺','四川大学','川大']
+});
 // cache the xml to send to clients
 var xml = feed.xml();
 
