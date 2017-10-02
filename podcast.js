@@ -2131,6 +2131,165 @@ feed.item({
     itunesDuration: 2666,
     itunesKeywords: ['约会','神奇海螺','四川大学','川大']
 });
+
+feed.item({
+    title:  '寝室父子之争',
+    description: `神奇海螺第六季第1期来了！本期你将会听到:
+    
+    寝室父子之争
+    所以你的假期计划完成了吗？
+    如果你愿意陪我往返21舍和文科楼
+    穿睡衣下去取外卖被新生家长围观是一种怎样的体验？
+    王者农药有解药吗？
+    为什么超七成大学生曾陷入“生活费不够用”的窘境？
+    相亲节目为何卷土重来？
+    神奇海螺团队成为网易云音乐第一批受邀电台开通了网易云音乐电台打赏功能，喜欢我们的电台可以直接在网易云音乐进行打赏，同时继续保留原支付宝赞助账户，您可以选择小额赞助我们团队，让我们能够持续做出更加精品的内容，
+    感谢神奇海螺团队的幕后人员:
+    台本:北阳，阿芽，维拉德
+    后期:洛克
+    ------
+    下期话题：你在萌新时期做过哪些糗事？欢迎参与我们的讨论。
+`,
+    url: config.baseUrl+'/54.mp3', // link to the item
+    categories: ['Comedy'], // optional - array of item categories
+    author: 'scuinfo和零壹广播剧社出品', // optional - defaults to feed author property
+    date: 'Sep 17, 2017', // a format that js Date can parse.
+    lat: 30.67, //optional latitude field for GeoRSS
+    long: 104.06, //optional longitude field for GeoRSS
+    itunesAuthor: 'scuinfo和零壹广播剧社出品',
+    itunesExplicit: false,
+    enclosure : {url:config.baseUrl+'/54.mp3', file:'./public/fm/54.mp3'}, // optional enclosure
+    itunesSubtitle: '寝室父子之争',
+    itunesSummary: `神奇海螺第六季第1期来了！本期你将会听到:
+    
+    寝室父子之争
+    所以你的假期计划完成了吗？
+    如果你愿意陪我往返21舍和文科楼
+    穿睡衣下去取外卖被新生家长围观是一种怎样的体验？
+    王者农药有解药吗？
+    为什么超七成大学生曾陷入“生活费不够用”的窘境？
+    相亲节目为何卷土重来？
+    神奇海螺团队成为网易云音乐第一批受邀电台开通了网易云音乐电台打赏功能，喜欢我们的电台可以直接在网易云音乐进行打赏，同时继续保留原支付宝赞助账户，您可以选择小额赞助我们团队，让我们能够持续做出更加精品的内容，
+    感谢神奇海螺团队的幕后人员:
+    台本:北阳，阿芽，维拉德
+    后期:洛克
+    ------
+    下期话题：你在萌新时期做过哪些糗事？欢迎参与我们的讨论。
+`,
+    itunesDuration: 1430,
+    itunesKeywords: ['父子','神奇海螺','四川大学','川大']
+});
+
+
+feed.item({
+    title:  '江安真的有美食吗？',
+    description: `神奇海螺第六季第2期来了！本期你将会听到:
+    
+    长的年轻该不该困扰？
+    江安真的有美食吗？
+    如果川大也按照兴趣分寝室...
+    绩点没到3.4就很垃圾？
+    萌新期间我都做过什么糗事？
+    你发如雪凄美了离别。
+    自行车乱象还有没有人管了？
+    为什么没人给我打伞？
+    垃圾桶里面为什么不能有垃圾？
+    大三还没过六级意味着什么？
+    
+    神奇海螺团队成为网易云音乐第一批受邀电台开通了网易云音乐电台打赏功能，喜欢我们的电台可以直接在网易云音乐进行打赏，同时继续保留原支付宝赞助账户，您可以选择小额赞助我们团队，让我们能够持续做出更加精品的内容，
+    感谢神奇海螺团队的幕后人员:
+    台本:北阳，阿芽，维拉德
+    后期:洛克
+    ------
+    下期话题：你的寝室究竟有多基/姬，不限男女哟
+    
+`,
+    url: config.baseUrl+'/55.mp3', // link to the item
+    categories: ['Comedy'], // optional - array of item categories
+    author: 'scuinfo和零壹广播剧社出品', // optional - defaults to feed author property
+    date: 'Sep 24, 2017', // a format that js Date can parse.
+    lat: 30.67, //optional latitude field for GeoRSS
+    long: 104.06, //optional longitude field for GeoRSS
+    itunesAuthor: 'scuinfo和零壹广播剧社出品',
+    itunesExplicit: false,
+    enclosure : {url:config.baseUrl+'/55.mp3', file:'./public/fm/55.mp3'}, // optional enclosure
+    itunesSubtitle: '江安真的有美食吗？',
+    itunesSummary: `神奇海螺第六季第2期来了！本期你将会听到:
+    
+    长的年轻该不该困扰？
+    江安真的有美食吗？
+    如果川大也按照兴趣分寝室...
+    绩点没到3.4就很垃圾？
+    萌新期间我都做过什么糗事？
+    你发如雪凄美了离别。
+    自行车乱象还有没有人管了？
+    为什么没人给我打伞？
+    垃圾桶里面为什么不能有垃圾？
+    大三还没过六级意味着什么？
+    
+    神奇海螺团队成为网易云音乐第一批受邀电台开通了网易云音乐电台打赏功能，喜欢我们的电台可以直接在网易云音乐进行打赏，同时继续保留原支付宝赞助账户，您可以选择小额赞助我们团队，让我们能够持续做出更加精品的内容，
+    感谢神奇海螺团队的幕后人员:
+    台本:北阳，阿芽，维拉德
+    后期:洛克
+    ------
+    下期话题：你的寝室究竟有多基/姬，不限男女哟
+    
+`,
+    itunesDuration: 1553,
+    itunesKeywords: ['美食','神奇海螺','四川大学','川大']
+});
+
+feed.item({
+    title:  '能驾驭住粉红色的男孩子究竟是啥样的？',
+    description: `神奇海螺第六季第3期来了！本期你将会听到:
+    
+    你的寝室究竟有多基/姬呢？
+    只为留下联系方式某同学女就撞碎了某同学男的曲面屏？
+    没有人邀请我组队的真正原因是？
+    有人需要180的男朋友吗，不抽烟不喝酒的那种
+    为啥在寝室写个作业都要被喷？
+    能驾驭住粉红色的男孩子究竟是啥样的？
+    你希望在川大食堂吃到哪种家乡美食？
+    如何看待辅导员要求女生去整理男生寝室？
+    
+    神奇海螺团队成为网易云音乐第一批受邀电台开通了网易云音乐电台打赏功能，喜欢我们的电台可以直接在网易云音乐进行打赏，同时继续保留原支付宝赞助账户，您可以选择小额赞助我们团队，让我们能够持续做出更加精品的内容，
+    感谢神奇海螺团队的幕后人员:
+    台本:北阳，阿芽，维拉德
+    后期:洛克
+    ------
+    下期话题：大家都在419米的长桥上和朋友聊些什么话题呢？
+`,
+    url: config.baseUrl+'/56.mp3', // link to the item
+    categories: ['Comedy'], // optional - array of item categories
+    author: 'scuinfo和零壹广播剧社出品', // optional - defaults to feed author property
+    date: 'Oct 2, 2017', // a format that js Date can parse.
+    lat: 30.67, //optional latitude field for GeoRSS
+    long: 104.06, //optional longitude field for GeoRSS
+    itunesAuthor: 'scuinfo和零壹广播剧社出品',
+    itunesExplicit: false,
+    enclosure : {url:config.baseUrl+'/56.mp3', file:'./public/fm/56.mp3'}, // optional enclosure
+    itunesSubtitle: '能驾驭住粉红色的男孩子究竟是啥样的？',
+    itunesSummary: `神奇海螺第六季第3期来了！本期你将会听到:
+    
+    你的寝室究竟有多基/姬呢？
+    只为留下联系方式某同学女就撞碎了某同学男的曲面屏？
+    没有人邀请我组队的真正原因是？
+    有人需要180的男朋友吗，不抽烟不喝酒的那种
+    为啥在寝室写个作业都要被喷？
+    能驾驭住粉红色的男孩子究竟是啥样的？
+    你希望在川大食堂吃到哪种家乡美食？
+    如何看待辅导员要求女生去整理男生寝室？
+    
+    神奇海螺团队成为网易云音乐第一批受邀电台开通了网易云音乐电台打赏功能，喜欢我们的电台可以直接在网易云音乐进行打赏，同时继续保留原支付宝赞助账户，您可以选择小额赞助我们团队，让我们能够持续做出更加精品的内容，
+    感谢神奇海螺团队的幕后人员:
+    台本:北阳，阿芽，维拉德
+    后期:洛克
+    ------
+    下期话题：大家都在419米的长桥上和朋友聊些什么话题呢？
+`,
+    itunesDuration: 1750,
+    itunesKeywords: ['美食','神奇海螺','四川大学','川大']
+});
 // cache the xml to send to clients
 var xml = feed.xml();
 
