@@ -1,7 +1,7 @@
 var UPYUN = require('upyun');
 var fs = require('fs');
-var upyun = new UPYUN('scuinfo', 'dsgygb', 'www.scuweb.com');
-
+var config = require('./config');
+var upyun = new UPYUN(config.upyun.bucketName, config.upyun.username,config.upyun.password);
 //upyun.getUsage(function(err, result) {
 //    //...
 //
