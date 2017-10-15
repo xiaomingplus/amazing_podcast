@@ -2326,7 +2326,7 @@ feed.item({
     itunesAuthor: 'scuinfo和零壹广播剧社出品',
     itunesExplicit: false,
     enclosure : {url:config.baseUrl+'/57.mp3', file:'./public/fm/57.mp3'}, // optional enclosure
-    itunesSubtitle: '标题2：男生主动逼你分手的套路有哪些？',
+    itunesSubtitle: '男生主动逼你分手的套路有哪些？',
     itunesSummary: `神奇海螺第六季第4期来了！本期你将会听到:
     
     长桥往事。
