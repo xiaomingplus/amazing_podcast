@@ -2355,6 +2355,57 @@ feed.item({
     itunesKeywords: ['分手','神奇海螺','四川大学','川大']
 });
 
+feed.item({
+    title:  '为什么男朋友总是很关心我的室友？',
+    description: `神奇海螺第六季第5期来了！本期你将会听到:
+    
+    学妹接近我图的到底是什么？
+    为什么男朋友总是很关心我的室友？
+    点外卖的时候如何留言卖家才会care你？
+    室友经常换床单竟然是因为？
+    新主播私人生活大揭秘
+    如何避免成为拖延症晚期患者？
+    川大周边多个公交站由于地铁施工关系被临时取消
+    把自行车停在马路中央的人
+    
+    神奇海螺团队成为网易云音乐第一批受邀电台开通了网易云音乐电台打赏功能，喜欢我们的电台可以直接在网易云音乐进行打赏，同时继续保留原支付宝赞助账户，您可以选择小额赞助我们团队，让我们能够持续做出更加精品的内容，
+    感谢神奇海螺团队的幕后人员:
+    台本:北阳，阿芽，维拉德
+    后期:洛克
+    ------
+    下期话题："你过得去小北门吗？"和"你在阳台上看得到楼下吗？"，你还听过哪些扎心的话？
+    `,
+    url: config.baseUrl+'/58.mp3', // link to the item
+    categories: ['Comedy'], // optional - array of item categories
+    author: 'scuinfo和零壹广播剧社出品', // optional - defaults to feed author property
+    date: 'Oct 23, 2017', // a format that js Date can parse.
+    lat: 30.67, //optional latitude field for GeoRSS
+    long: 104.06, //optional longitude field for GeoRSS
+    itunesAuthor: 'scuinfo和零壹广播剧社出品',
+    itunesExplicit: false,
+    enclosure : {url:config.baseUrl+'/58.mp3', file:'./public/fm/58.mp3'}, // optional enclosure
+    itunesSubtitle: '为什么男朋友总是很关心我的室友？',
+    itunesSummary: `神奇海螺第六季第5期来了！本期你将会听到:
+    
+    学妹接近我图的到底是什么？
+    为什么男朋友总是很关心我的室友？
+    点外卖的时候如何留言卖家才会care你？
+    室友经常换床单竟然是因为？
+    新主播私人生活大揭秘
+    如何避免成为拖延症晚期患者？
+    川大周边多个公交站由于地铁施工关系被临时取消
+    把自行车停在马路中央的人
+    
+    神奇海螺团队成为网易云音乐第一批受邀电台开通了网易云音乐电台打赏功能，喜欢我们的电台可以直接在网易云音乐进行打赏，同时继续保留原支付宝赞助账户，您可以选择小额赞助我们团队，让我们能够持续做出更加精品的内容，
+    感谢神奇海螺团队的幕后人员:
+    台本:北阳，阿芽，维拉德
+    后期:洛克
+    ------
+    下期话题："你过得去小北门吗？"和"你在阳台上看得到楼下吗？"，你还听过哪些扎心的话？
+`,
+    itunesDuration: 2014,
+    itunesKeywords: ['神奇海螺','四川大学','川大']
+});
 
 // cache the xml to send to clients
 var xml = feed.xml();
