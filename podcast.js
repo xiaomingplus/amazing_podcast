@@ -2407,6 +2407,55 @@ feed.item({
     itunesKeywords: ['神奇海螺','四川大学','川大']
 });
 
+feed.item({
+    title:  '8000万川大人看到这几句话都被扎心了！！！',
+    description: `神奇海螺第六季第6期来了！本期你将会听到:
+    
+    我为什么要选择经济学院的同学作为伴侣？
+    喜欢上了一个有男朋友的女生该怎么办？
+    商业街的主要矛盾的转变
+    男朋友为挽留感情竟然一直给我送口红...
+    网曝川大某教授强制要求学生购买其主编的电子教材
+    川大的电竞教材能让国人赢得英雄联盟的世界大赛吗？
+    金拱门公司对贴合中国本土是不是有一些误解？
+    
+    神奇海螺团队成为网易云音乐第一批受邀电台开通了网易云音乐电台打赏功能，喜欢我们的电台可以直接在网易云音乐进行打赏，同时继续保留原支付宝赞助账户，您可以选择小额赞助我们团队，让我们能够持续做出更加精品的内容，
+    感谢神奇海螺团队的幕后人员:
+    台本:北阳，阿芽，维拉德
+    后期:洛克
+    ------
+    下期话题："室友是学霸是怎样的体验?"
+    `,
+    url: config.baseUrl+'/59.mp3', // link to the item
+    categories: ['Comedy'], // optional - array of item categories
+    author: 'scuinfo和零壹广播剧社出品', // optional - defaults to feed author property
+    date: 'Nov 5, 2017', // a format that js Date can parse.
+    lat: 30.67, //optional latitude field for GeoRSS
+    long: 104.06, //optional longitude field for GeoRSS
+    itunesAuthor: 'scuinfo和零壹广播剧社出品',
+    itunesExplicit: false,
+    enclosure : {url:config.baseUrl+'/59.mp3', file:'./public/fm/59.mp3'}, // optional enclosure
+    itunesSubtitle: '8000万川大人看到这几句话都被扎心了！！！',
+    itunesSummary: `神奇海螺第六季第6期来了！本期你将会听到:
+    
+    我为什么要选择经济学院的同学作为伴侣？
+    喜欢上了一个有男朋友的女生该怎么办？
+    商业街的主要矛盾的转变
+    男朋友为挽留感情竟然一直给我送口红...
+    网曝川大某教授强制要求学生购买其主编的电子教材
+    川大的电竞教材能让国人赢得英雄联盟的世界大赛吗？
+    金拱门公司对贴合中国本土是不是有一些误解？
+    
+    神奇海螺团队成为网易云音乐第一批受邀电台开通了网易云音乐电台打赏功能，喜欢我们的电台可以直接在网易云音乐进行打赏，同时继续保留原支付宝赞助账户，您可以选择小额赞助我们团队，让我们能够持续做出更加精品的内容，
+    感谢神奇海螺团队的幕后人员:
+    台本:北阳，阿芽，维拉德
+    后期:洛克
+    ------
+    下期话题："室友是学霸是怎样的体验?"
+`,
+    itunesDuration: 1576,
+    itunesKeywords: ['扎心','四川大学','川大']
+});
 // cache the xml to send to clients
 var xml = feed.xml();
 
