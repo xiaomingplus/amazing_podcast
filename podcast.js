@@ -2456,6 +2456,116 @@ feed.item({
     itunesDuration: 1576,
     itunesKeywords: ['扎心','四川大学','川大']
 });
+
+
+feed.item({
+    title:  '在得知男神的性取向之后...',
+    description: `神奇海螺第六季第7期来了！本期你将会听到:
+    
+    室友是学霸是一种怎样的体验？
+    在得知男神的性取向之后...
+    99年少女主播如何回应海螺大规模拖更？
+    双十一里的原教旨主义者去哪儿了？
+    直男是如何把天聊死的？
+    打辩论的人在生活中也强词夺理吗？
+    洗衣机价格飞涨的背后
+    你永远不知道你面前的快递柜什么时候突然弹开。
+    
+    神奇海螺团队成为网易云音乐第一批受邀电台开通了网易云音乐电台打赏功能，喜欢我们的电台可以直接在网易云音乐进行打赏，同时继续保留原支付宝赞助账户，您可以选择小额赞助我们团队，让我们能够持续做出更加精品的内容，
+    感谢神奇海螺团队的幕后人员:
+    台本:北阳，阿芽，维拉德
+    后期:洛克
+    ------
+    下期话题："你遇到过哪些令人窒息的直男操作"
+    `,
+    url: config.baseUrl+'/60.mp3', // link to the item
+    categories: ['Comedy'], // optional - array of item categories
+    author: 'scuinfo和零壹广播剧社出品', // optional - defaults to feed author property
+    date: 'Nov 19, 2017', // a format that js Date can parse.
+    lat: 30.67, //optional latitude field for GeoRSS
+    long: 104.06, //optional longitude field for GeoRSS
+    itunesAuthor: 'scuinfo和零壹广播剧社出品',
+    itunesExplicit: false,
+    enclosure : {url:config.baseUrl+'/60.mp3', file:'./public/fm/60.mp3'}, // optional enclosure
+    itunesSubtitle: '在得知男神的性取向之后...',
+    itunesSummary: `神奇海螺第六季第7期来了！本期你将会听到:
+    
+    室友是学霸是一种怎样的体验？
+    在得知男神的性取向之后...
+    99年少女主播如何回应海螺大规模拖更？
+    双十一里的原教旨主义者去哪儿了？
+    直男是如何把天聊死的？
+    打辩论的人在生活中也强词夺理吗？
+    洗衣机价格飞涨的背后
+    你永远不知道你面前的快递柜什么时候突然弹开。
+    
+    神奇海螺团队成为网易云音乐第一批受邀电台开通了网易云音乐电台打赏功能，喜欢我们的电台可以直接在网易云音乐进行打赏，同时继续保留原支付宝赞助账户，您可以选择小额赞助我们团队，让我们能够持续做出更加精品的内容，
+    感谢神奇海螺团队的幕后人员:
+    台本:北阳，阿芽，维拉德
+    后期:洛克
+    ------
+    下期话题："你遇到过哪些令人窒息的直男操作"
+`,
+    itunesDuration: 1647,
+    itunesKeywords: ['男神','四川大学','川大']
+});
+
+feed.item({
+    title:  '直男启示录',
+    description: `神奇海螺第六季第8期来了！本期你将会听到:
+    
+    - “你生气了吗？”
+    - “没”
+    - “那就好，那我去打游戏了”    
+    又到了情侣们相互取暖，单身狗们瑟瑟发抖的季节了
+    直男变弯与18舍的妖里妖气有关吗？
+    你学计算机的？来给我修下电脑吧
+    “空间第一条麻烦点个赞”
+    胖子去食堂就要有羞耻感吗？
+    一辆摩托车如何同时坐得下58人？
+    
+    神奇海螺团队成为网易云音乐第一批受邀电台开通了网易云音乐电台打赏功能，喜欢我们的电台可以直接在网易云音乐进行打赏，同时继续保留原支付宝赞助账户，您可以选择小额赞助我们团队，让我们能够持续做出更加精品的内容，
+    感谢神奇海螺团队的幕后人员:
+    台本:北阳，阿芽，维拉德,二岁半    
+    后期:洛克
+    ------
+    下期话题："晚上你都修过哪些仙？"
+    `,
+    url: config.baseUrl+'/61.mp3', // link to the item
+    categories: ['Comedy'], // optional - array of item categories
+    author: 'scuinfo和零壹广播剧社出品', // optional - defaults to feed author property
+    date: 'Nov 26, 2017', // a format that js Date can parse.
+    lat: 30.67, //optional latitude field for GeoRSS
+    long: 104.06, //optional longitude field for GeoRSS
+    itunesAuthor: 'scuinfo和零壹广播剧社出品',
+    itunesExplicit: false,
+    enclosure : {url:config.baseUrl+'/61.mp3', file:'./public/fm/61.mp3'}, // optional enclosure
+    itunesSubtitle: '直男启示录',
+    itunesSummary: `神奇海螺第六季第8期来了！本期你将会听到:
+    
+    - “你生气了吗？”
+    - “没”
+    - “那就好，那我去打游戏了”    
+    又到了情侣们相互取暖，单身狗们瑟瑟发抖的季节了
+    直男变弯与18舍的妖里妖气有关吗？
+    你学计算机的？来给我修下电脑吧
+    “空间第一条麻烦点个赞”
+    胖子去食堂就要有羞耻感吗？
+    一辆摩托车如何同时坐得下58人？
+    
+    神奇海螺团队成为网易云音乐第一批受邀电台开通了网易云音乐电台打赏功能，喜欢我们的电台可以直接在网易云音乐进行打赏，同时继续保留原支付宝赞助账户，您可以选择小额赞助我们团队，让我们能够持续做出更加精品的内容，
+    感谢神奇海螺团队的幕后人员:
+    台本:北阳，阿芽，维拉德,二岁半    
+    后期:洛克
+    ------
+    下期话题："晚上你都修过哪些仙？"
+`,
+    itunesDuration: 1596,
+    itunesKeywords: ['直男','四川大学','川大']
+});
+
+
+
 // cache the xml to send to clients
 var xml = feed.xml();
 
