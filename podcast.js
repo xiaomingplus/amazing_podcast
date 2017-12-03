@@ -2564,7 +2564,55 @@ feed.item({
     itunesKeywords: ['直男','四川大学','川大']
 });
 
-
+feed.item({
+    title:  '川大人的头发是如何一步一步掉光的',
+    description: `神奇海螺第六季第9期来了！本期你将会听到:
+    
+    川大人的头发是如何一步一步掉光的
+    面对摸我屁股的室友我该不该摸回去？
+    安徽海螺水泥股份有限公司你们听好了！
+    迎新晚会夸我帅的人到底是不是在客套？
+    青春和脸上的痘痘谁先走？
+    成为学霸夫妻是怎样的一种体验？
+    你什么时候才能不拖平均月薪的后腿？
+    
+    神奇海螺团队成为网易云音乐第一批受邀电台开通了网易云音乐电台打赏功能，喜欢我们的电台可以直接在网易云音乐进行打赏，同时继续保留原支付宝赞助账户，您可以选择小额赞助我们团队，让我们能够持续做出更加精品的内容，
+    感谢神奇海螺团队的幕后人员:
+    台本:北阳，阿芽，维拉德,二岁半    
+    后期:洛克
+    ------
+    下期话题："如果可以回到高中，你最想做的一件事是什么？"
+    `,
+    url: config.baseUrl+'/62.mp3', // link to the item
+    categories: ['Comedy'], // optional - array of item categories
+    author: 'scuinfo和零壹广播剧社出品', // optional - defaults to feed author property
+    date: 'Dec 3, 2017', // a format that js Date can parse.
+    lat: 30.67, //optional latitude field for GeoRSS
+    long: 104.06, //optional longitude field for GeoRSS
+    itunesAuthor: 'scuinfo和零壹广播剧社出品',
+    itunesExplicit: false,
+    enclosure : {url:config.baseUrl+'/62.mp3', file:'./public/fm/62.mp3'}, // optional enclosure
+    itunesSubtitle: '川大人的头发是如何一步一步掉光的',
+    itunesSummary: `神奇海螺第六季第9期来了！本期你将会听到:
+    
+    川大人的头发是如何一步一步掉光的
+    面对摸我屁股的室友我该不该摸回去？
+    安徽海螺水泥股份有限公司你们听好了！
+    迎新晚会夸我帅的人到底是不是在客套？
+    青春和脸上的痘痘谁先走？
+    成为学霸夫妻是怎样的一种体验？
+    你什么时候才能不拖平均月薪的后腿？
+    
+    神奇海螺团队成为网易云音乐第一批受邀电台开通了网易云音乐电台打赏功能，喜欢我们的电台可以直接在网易云音乐进行打赏，同时继续保留原支付宝赞助账户，您可以选择小额赞助我们团队，让我们能够持续做出更加精品的内容，
+    感谢神奇海螺团队的幕后人员:
+    台本:北阳，阿芽，维拉德,二岁半    
+    后期:洛克
+    ------
+    下期话题："如果可以回到高中，你最想做的一件事是什么？"
+`,
+    itunesDuration: 1538,
+    itunesKeywords: ['秃头','四川大学','川大']
+});
 
 // cache the xml to send to clients
 var xml = feed.xml();
