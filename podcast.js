@@ -2614,6 +2614,274 @@ feed.item({
     itunesKeywords: ['秃头','四川大学','川大']
 });
 
+
+feed.item({
+    title:  '如果可以回到高中，你能把同桌追到手吗？',
+    description: `神奇海螺第六季第10期来了！本期你将会听到:
+
+    info和现实中搭讪哪个成功的概率更大？
+    不好看该不该怪口罩？
+    提前买了机票的他最后为什么变成了傻子？
+    相撞变成相恋的概率大吗？
+    喜欢一个人就要卑微到尘埃里吗？
+    川大的女孩子是如何打瞌睡的？
+    华联超市，你们诚意在哪里？
+    猫是不是站在金字塔顶端的物种？
+    扒一扒主播间的友情
+    
+    神奇海螺团队成为网易云音乐第一批受邀电台开通了网易云音乐电台打赏功能，喜欢我们的电台可以直接在网易云音乐进行打赏，同时继续保留原支付宝赞助账户，您可以选择小额赞助我们团队，让我们能够持续做出更加精品的内容，
+    感谢神奇海螺团队的幕后人员:
+    台本:北阳，阿芽，维拉德,二岁半 
+    后期:洛克
+    ------
+    下期话题："辅导员说过或者做过哪些奇葩的事情"
+    `,
+    url: config.baseUrl+'/63.mp3', // link to the item
+    categories: ['Comedy'], // optional - array of item categories
+    author: 'scuinfo和零壹广播剧社出品', // optional - defaults to feed author property
+    date: 'Dec 13, 2017', // a format that js Date can parse.
+    lat: 30.67, //optional latitude field for GeoRSS
+    long: 104.06, //optional longitude field for GeoRSS
+    itunesAuthor: 'scuinfo和零壹广播剧社出品',
+    itunesExplicit: false,
+    enclosure : {url:config.baseUrl+'/63.mp3', file:'./public/fm/63.mp3'}, // optional enclosure
+    itunesSubtitle: '如果可以回到高中，你能把同桌追到手吗？',
+    itunesSummary: `神奇海螺第六季第10期来了！本期你将会听到:
+
+    info和现实中搭讪哪个成功的概率更大？
+    不好看该不该怪口罩？
+    提前买了机票的他最后为什么变成了傻子？
+    相撞变成相恋的概率大吗？
+    喜欢一个人就要卑微到尘埃里吗？
+    川大的女孩子是如何打瞌睡的？
+    华联超市，你们诚意在哪里？
+    猫是不是站在金字塔顶端的物种？
+    扒一扒主播间的友情
+    
+    神奇海螺团队成为网易云音乐第一批受邀电台开通了网易云音乐电台打赏功能，喜欢我们的电台可以直接在网易云音乐进行打赏，同时继续保留原支付宝赞助账户，您可以选择小额赞助我们团队，让我们能够持续做出更加精品的内容，
+    感谢神奇海螺团队的幕后人员:
+    台本:北阳，阿芽，维拉德,二岁半 
+    后期:洛克
+    ------
+    下期话题："辅导员说过或者做过哪些奇葩的事情"
+`,
+    itunesDuration: 1784,
+    itunesKeywords: ['同桌','四川大学','川大']
+});
+feed.item({
+    title:  '川大悬案：航空公司到底有没有赞助教务处？',
+    description: `神奇海螺第六季第11期本季大结局来了！本期你将会听到:
+
+    图书馆的保安大爷究竟说了什么让这个男同学心里久久不能平静？
+    川大的辅导员们
+    我有一瓶陈年的纯牛奶，你有故事吗？
+    在川大自习你需要远离哪三种人？
+    不能脱单是因为父母阻碍吗？
+    想和室友谈恋爱，怎么办？
+    海螺本季大结局
+    那个谁！我打算元旦跟你告白
+    
+    神奇海螺团队成为网易云音乐第一批受邀电台开通了网易云音乐电台打赏功能，喜欢我们的电台可以直接在网易云音乐进行打赏，同时继续保留原支付宝赞助账户，您可以选择小额赞助我们团队，让我们能够持续做出更加精品的内容，
+    感谢神奇海螺团队的幕后人员:
+    台本:北阳，阿芽，维拉德,二岁半 
+    后期:洛克
+    ------
+    下期： 春节再见！😆
+    `,
+    url: config.baseUrl+'/64.mp3', // link to the item
+    categories: ['Comedy'], // optional - array of item categories
+    author: 'scuinfo和零壹广播剧社出品', // optional - defaults to feed author property
+    date: 'Dec 17, 2017', // a format that js Date can parse.
+    lat: 30.67, //optional latitude field for GeoRSS
+    long: 104.06, //optional longitude field for GeoRSS
+    itunesAuthor: 'scuinfo和零壹广播剧社出品',
+    itunesExplicit: false,
+    enclosure : {url:config.baseUrl+'/64.mp3', file:'./public/fm/64.mp3'}, // optional enclosure
+    itunesSubtitle: '川大悬案：航空公司到底有没有赞助教务处？',
+    itunesSummary: `神奇海螺第六季第11期本季大结局来了！本期你将会听到:
+
+    图书馆的保安大爷究竟说了什么让这个男同学心里久久不能平静？
+    川大的辅导员们
+    我有一瓶陈年的纯牛奶，你有故事吗？
+    在川大自习你需要远离哪三种人？
+    不能脱单是因为父母阻碍吗？
+    想和室友谈恋爱，怎么办？
+    海螺本季大结局
+    那个谁！我打算元旦跟你告白
+    
+    神奇海螺团队成为网易云音乐第一批受邀电台开通了网易云音乐电台打赏功能，喜欢我们的电台可以直接在网易云音乐进行打赏，同时继续保留原支付宝赞助账户，您可以选择小额赞助我们团队，让我们能够持续做出更加精品的内容，
+    感谢神奇海螺团队的幕后人员:
+    台本:北阳，阿芽，维拉德,二岁半 
+    后期:洛克
+    ------
+    下期： 春节再见！😆
+`,
+    itunesDuration: 1538,
+    itunesKeywords: ['教务处','四川大学','川大']
+});
+feed.item({
+    title:  '[春节特辑]我的小学生弟弟都有女朋友了。。。',
+    description: ` 神奇海螺2018春节特辑来了！本期你将会听到:
+
+    所以，2018年了，你的对象找到了吗？
+    谷歌娘被听众吐槽戏份太多。。。
+    神奇海螺历史上所有的主播们都亲自来讲他们的第一次！
+    我的小学生弟弟都有女朋友了。。。
+    软盘月半揭秘本届春晚内幕
+    就在刚刚！泸州老窖竟然悄然上线了一款香水！
+    全国各地都是如何优雅的过春节的？
+    养了这么久的青蛙居然是。。。
+    有一个想替男朋友去考马原的女朋友是怎样的一种体验？
+    我们凭什么要考马原？
+    
+    神奇海螺团队成为网易云音乐第一批受邀电台开通了网易云音乐电台打赏功能，喜欢我们的电台可以直接在网易云音乐进行打赏，同时继续保留原支付宝赞助账户，您可以选择小额赞助我们团队，让我们能够持续做出更加精品的内容，
+    感谢神奇海螺团队的幕后人员:
+    台本:北阳，阿芽，维拉德,二岁半 
+    后期:洛克
+    
+    ———
+    另外插播一条招台本组的信息（求求段子手们快来！
+    
+    本次招新仅招募【台本组】，请将你的【基本个人信息】+【自我介绍】+【附件】发送至shenqihailuo@qq.com，【注:台本组附件即，需按照往期节目写一份2000字以上的台本】详情请联系工作人员qq:露丝要录三思路要三(网易云音乐不允许直接发数字QQ号，还请见谅)
+    
+    `,
+    url: config.baseUrl+'/65.mp3', // link to the item
+    categories: ['Comedy'], // optional - array of item categories
+    author: 'scuinfo和零壹广播剧社出品', // optional - defaults to feed author property
+    date: 'Feb 23, 2018', // a format that js Date can parse.
+    lat: 30.67, //optional latitude field for GeoRSS
+    long: 104.06, //optional longitude field for GeoRSS
+    itunesAuthor: 'scuinfo和零壹广播剧社出品',
+    itunesExplicit: false,
+    enclosure : {url:config.baseUrl+'/65.mp3', file:'./public/fm/65.mp3'}, // optional enclosure
+    itunesSubtitle: '[春节特辑]我的小学生弟弟都有女朋友了。。。',
+    itunesSummary: ` 神奇海螺2018春节特辑来了！本期你将会听到:
+
+    所以，2018年了，你的对象找到了吗？
+    谷歌娘被听众吐槽戏份太多。。。
+    神奇海螺历史上所有的主播们都亲自来讲他们的第一次！
+    我的小学生弟弟都有女朋友了。。。
+    软盘月半揭秘本届春晚内幕
+    就在刚刚！泸州老窖竟然悄然上线了一款香水！
+    全国各地都是如何优雅的过春节的？
+    养了这么久的青蛙居然是。。。
+    有一个想替男朋友去考马原的女朋友是怎样的一种体验？
+    我们凭什么要考马原？
+    
+    神奇海螺团队成为网易云音乐第一批受邀电台开通了网易云音乐电台打赏功能，喜欢我们的电台可以直接在网易云音乐进行打赏，同时继续保留原支付宝赞助账户，您可以选择小额赞助我们团队，让我们能够持续做出更加精品的内容，
+    感谢神奇海螺团队的幕后人员:
+    台本:北阳，阿芽，维拉德,二岁半 
+    后期:洛克
+    
+    ———
+    另外插播一条招台本组的信息（求求段子手们快来！
+    
+    本次招新仅招募【台本组】，请将你的【基本个人信息】+【自我介绍】+【附件】发送至shenqihailuo@qq.com，【注:台本组附件即，需按照往期节目写一份2000字以上的台本】详情请联系工作人员qq:露丝要录三思路要三(网易云音乐不允许直接发数字QQ号，还请见谅)
+    
+`,
+    itunesDuration: 1538,
+    itunesKeywords: ['秃头','四川大学','川大']
+});
+feed.item({
+    title:  '只有在寝室里才能聊的话题究竟是什么？',
+    description: ` 神奇海螺第七季第1期来了！本期你将会听到:
+
+    新主播来了！
+    江安周边小吃不完全指南！
+    如何科学的晚归？
+    为什么偏偏在那个时候最想脱单？
+    只有在寝室里才能聊的话题究竟是什么？
+    江安食堂排行榜
+    哪一家才能称得上是商业街最棒的店铺？
+    我的自习室口味
+    你都上过哪些奇葩课？
+    川大在你身上刻下了哪些烙印？ 
+    
+    神奇海螺团队成为网易云音乐第一批受邀电台开通了网易云音乐电台打赏功能，喜欢我们的电台可以直接在网易云音乐进行打赏，同时继续保留原支付宝赞助账户，您可以选择小额赞助我们团队，让我们能够持续做出更加精品的内容，
+    感谢神奇海螺团队的幕后人员:
+    台本:北阳，阿芽，维拉德,二岁半 
+    后期:洛克
+    `,
+    url: config.baseUrl+'/66.mp3', // link to the item
+    categories: ['Comedy'], // optional - array of item categories
+    author: 'scuinfo和零壹广播剧社出品', // optional - defaults to feed author property
+    date: 'Mar 25, 2018', // a format that js Date can parse.
+    lat: 30.67, //optional latitude field for GeoRSS
+    long: 104.06, //optional longitude field for GeoRSS
+    itunesAuthor: 'scuinfo和零壹广播剧社出品',
+    itunesExplicit: false,
+    enclosure : {url:config.baseUrl+'/66.mp3', file:'./public/fm/66.mp3'}, // optional enclosure
+    itunesSubtitle: '只有在寝室里才能聊的话题究竟是什么？',
+    itunesSummary: ` 神奇海螺第七季第1期来了！本期你将会听到:
+
+    新主播来了！
+    江安周边小吃不完全指南！
+    如何科学的晚归？
+    为什么偏偏在那个时候最想脱单？
+    只有在寝室里才能聊的话题究竟是什么？
+    江安食堂排行榜
+    哪一家才能称得上是商业街最棒的店铺？
+    我的自习室口味
+    你都上过哪些奇葩课？
+    川大在你身上刻下了哪些烙印？ 
+    
+    神奇海螺团队成为网易云音乐第一批受邀电台开通了网易云音乐电台打赏功能，喜欢我们的电台可以直接在网易云音乐进行打赏，同时继续保留原支付宝赞助账户，您可以选择小额赞助我们团队，让我们能够持续做出更加精品的内容，
+    感谢神奇海螺团队的幕后人员:
+    台本:北阳，阿芽，维拉德,二岁半 
+    后期:洛克
+`,
+    itunesDuration: 1538,
+    itunesKeywords: ['寝室','四川大学','川大']
+});
+feed.item({
+    title:  '两个好看的小哥哥，你会选一个，还是会撮合他俩在一起呢？',
+    description: ` 神奇海螺第七季第1期来了！本期你将会听到:
+
+    如何高效地学好英语？
+    让女生熄灯前10分钟，按指定动作拍照并上传的方案可行吗？
+    为什么说不要用ps做，用Photoshop做？
+    “我和你妈都掉河里，先救哪一个”的终极答案！
+    神奇海螺的脑洞
+    商纣王名字的含义究竟什么？
+    两个好看的小哥哥，你会选一个，还是会撮合他俩在一起呢？
+    冷知识：一直盯着手心看，手心会发热
+    等红灯时玩手机会到底会发生什么？
+    
+    神奇海螺团队成为网易云音乐第一批受邀电台开通了网易云音乐电台打赏功能，喜欢我们的电台可以直接在网易云音乐进行打赏，同时继续保留原支付宝赞助账户，您可以选择小额赞助我们团队，让我们能够持续做出更加精品的内容，
+    感谢神奇海螺团队的幕后人员:
+    台本:维拉德,二岁半 
+    后期:洛克
+    `,
+    url: config.baseUrl+'/67.mp3', // link to the item
+    categories: ['Comedy'], // optional - array of item categories
+    author: 'scuinfo和零壹广播剧社出品', // optional - defaults to feed author property
+    date: 'Apr 1, 2018', // a format that js Date can parse.
+    lat: 30.67, //optional latitude field for GeoRSS
+    long: 104.06, //optional longitude field for GeoRSS
+    itunesAuthor: 'scuinfo和零壹广播剧社出品',
+    itunesExplicit: false,
+    enclosure : {url:config.baseUrl+'/67.mp3', file:'./public/fm/67.mp3'}, // optional enclosure
+    itunesSubtitle: '两个好看的小哥哥，你会选一个，还是会撮合他俩在一起呢？',
+    itunesSummary: ` 神奇海螺第七季第1期来了！本期你将会听到:
+
+    如何高效地学好英语？
+    让女生熄灯前10分钟，按指定动作拍照并上传的方案可行吗？
+    为什么说不要用ps做，用Photoshop做？
+    “我和你妈都掉河里，先救哪一个”的终极答案！
+    神奇海螺的脑洞
+    商纣王名字的含义究竟什么？
+    两个好看的小哥哥，你会选一个，还是会撮合他俩在一起呢？
+    冷知识：一直盯着手心看，手心会发热
+    等红灯时玩手机会到底会发生什么？
+
+    神奇海螺团队成为网易云音乐第一批受邀电台开通了网易云音乐电台打赏功能，喜欢我们的电台可以直接在网易云音乐进行打赏，同时继续保留原支付宝赞助账户，您可以选择小额赞助我们团队，让我们能够持续做出更加精品的内容，
+    感谢神奇海螺团队的幕后人员:
+    台本:维拉德,二岁半 
+    后期:洛克
+`,
+    itunesDuration: 1538,
+    itunesKeywords: ['小哥哥','四川大学','川大']
+});
 // cache the xml to send to clients
 var xml = feed.xml();
 
