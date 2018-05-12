@@ -2833,9 +2833,10 @@ feed.item({
     itunesDuration: 1538,
     itunesKeywords: ['寝室','四川大学','川大']
 });
+
 feed.item({
     title:  '两个好看的小哥哥，你会选一个，还是会撮合他俩在一起呢？',
-    description: ` 神奇海螺第七季第1期来了！本期你将会听到:
+    description: ` 神奇海螺第七季第2期来了！本期你将会听到:
 
     如何高效地学好英语？
     让女生熄灯前10分钟，按指定动作拍照并上传的方案可行吗？
@@ -2862,7 +2863,7 @@ feed.item({
     itunesExplicit: false,
     enclosure : {url:config.baseUrl+'/67.mp3', file:'./public/fm/67.mp3'}, // optional enclosure
     itunesSubtitle: '两个好看的小哥哥，你会选一个，还是会撮合他俩在一起呢？',
-    itunesSummary: ` 神奇海螺第七季第1期来了！本期你将会听到:
+    itunesSummary: ` 神奇海螺第七季第2期来了！本期你将会听到:
 
     如何高效地学好英语？
     让女生熄灯前10分钟，按指定动作拍照并上传的方案可行吗？
@@ -2882,6 +2883,201 @@ feed.item({
     itunesDuration: 1538,
     itunesKeywords: ['小哥哥','四川大学','川大']
 });
+
+feed.item({
+    title:  '所以，只能邀请室友一起打伞了吗？',
+    description: ` 神奇海螺第七季第3期来了！本期你将会听到:
+
+    你和朋友都做过哪些脑残事？
+    所以，只能邀请室友一起打伞了吗？
+    成都七中：现在不努力，以后上隔壁！
+    世界上最大的生物竟然是？
+    如何看待@scu神奇海螺 官方微博迄今为止只有49个粉丝？
+    川大海外访学计划了解一下？
+    为什么要找外卖小哥辅导高数题？
+    小心！偷看伴侣手机可能触犯刑法！在沙特！
+    
+    神奇海螺团队成为网易云音乐第一批受邀电台开通了网易云音乐电台打赏功能，喜欢我们的电台可以直接在网易云音乐进行打赏，同时继续保留原支付宝赞助账户，您可以选择小额赞助我们团队，让我们能够持续做出更加精品的内容，
+    感谢神奇海螺团队的幕后人员:
+    台本:维拉德,二岁半 
+    后期:洛克
+    `,
+    url: config.baseUrl+'/68.mp3', // link to the item
+    categories: ['Comedy'], // optional - array of item categories
+    author: 'scuinfo和零壹广播剧社出品', // optional - defaults to feed author property
+    date: 'Apr 9, 2018', // a format that js Date can parse.
+    lat: 30.67, //optional latitude field for GeoRSS
+    long: 104.06, //optional longitude field for GeoRSS
+    itunesAuthor: 'scuinfo和零壹广播剧社出品',
+    itunesExplicit: false,
+    enclosure : {url:config.baseUrl+'/68.mp3', file:'./public/fm/68.mp3'}, // optional enclosure
+    itunesSubtitle: '所以，只能邀请室友一起打伞了吗？',
+    itunesSummary: ` 神奇海螺第七季第3期来了！本期你将会听到:
+
+    你和朋友都做过哪些脑残事？
+    所以，只能邀请室友一起打伞了吗？
+    成都七中：现在不努力，以后上隔壁！
+    世界上最大的生物竟然是？
+    如何看待@scu神奇海螺 官方微博迄今为止只有49个粉丝？
+    川大海外访学计划了解一下？
+    为什么要找外卖小哥辅导高数题？
+    小心！偷看伴侣手机可能触犯刑法！在沙特！
+
+    神奇海螺团队成为网易云音乐第一批受邀电台开通了网易云音乐电台打赏功能，喜欢我们的电台可以直接在网易云音乐进行打赏，同时继续保留原支付宝赞助账户，您可以选择小额赞助我们团队，让我们能够持续做出更加精品的内容，
+    感谢神奇海螺团队的幕后人员:
+    台本:维拉德,二岁半 
+    后期:洛克
+`,
+    itunesDuration: 1538,
+    itunesKeywords: ['打伞','四川大学','川大']
+});
+
+feed.item({
+    title:  '商业街养猪可行性研究',
+    description: ` 神奇海螺第七季第4期来了！本期你将会听到:
+
+    “玻璃杯事件”一年后...
+    商业街养猪可行性研究
+    计算机学院的男生需要的到底是代码还是女票？
+    川大的长桥有什么优点吗？除了长
+    江安夜生活
+    如何优雅地让父母打钱？
+    你愿意让伴侣知道你在想什么吗？
+    图书馆里座位上的折纸小青蛙的真相竟然是...
+    
+    神奇海螺团队成为网易云音乐第一批受邀电台开通了网易云音乐电台打赏功能，喜欢我们的电台可以直接在网易云音乐进行打赏，同时继续保留原支付宝赞助账户，您可以选择小额赞助我们团队，让我们能够持续做出更加精品的内容，
+    感谢神奇海螺团队的幕后人员:
+    台本:维拉德,二岁半 
+    后期:洛克
+    `,
+    url: config.baseUrl+'/69.mp3', // link to the item
+    categories: ['Comedy'], // optional - array of item categories
+    author: 'scuinfo和零壹广播剧社出品', // optional - defaults to feed author property
+    date: 'Apr 15, 2018', // a format that js Date can parse.
+    lat: 30.67, //optional latitude field for GeoRSS
+    long: 104.06, //optional longitude field for GeoRSS
+    itunesAuthor: 'scuinfo和零壹广播剧社出品',
+    itunesExplicit: false,
+    enclosure : {url:config.baseUrl+'/69.mp3', file:'./public/fm/69.mp3'}, // optional enclosure
+    itunesSubtitle: '商业街养猪可行性研究',
+    itunesSummary: ` 神奇海螺第七季第4期来了！本期你将会听到:
+
+    “玻璃杯事件”一年后...
+    商业街养猪可行性研究
+    计算机学院的男生需要的到底是代码还是女票？
+    川大的长桥有什么优点吗？除了长
+    江安夜生活
+    如何优雅地让父母打钱？
+    你愿意让伴侣知道你在想什么吗？
+    图书馆里座位上的折纸小青蛙的真相竟然是...
+
+    神奇海螺团队成为网易云音乐第一批受邀电台开通了网易云音乐电台打赏功能，喜欢我们的电台可以直接在网易云音乐进行打赏，同时继续保留原支付宝赞助账户，您可以选择小额赞助我们团队，让我们能够持续做出更加精品的内容，
+    感谢神奇海螺团队的幕后人员:
+    台本:维拉德,二岁半 
+    后期:洛克
+`,
+    itunesDuration: 1538,
+    itunesKeywords: ['养猪','四川大学','川大']
+});
+
+feed.item({
+    title:  '别人家的男朋友，从来没让我失望过。',
+    description: ` 神奇海螺第七季第5期来了！本期你将会听到:
+
+    转专业后的他们究竟过的怎么样？
+    面膜补水效果败给男室友后该如何应对？
+    圈存机故障后食堂该不该免费？
+    关于健身的那点事儿
+    为什么我的七大姑八大姨还不帮我相亲？
+    为什么我又瘦又好看三观又正还没有男朋友？
+    关于体测预约和抢课的难易程度分析
+    别人家的男朋友，从来没让我失望过。
+    苏州高校神秘失窃，夜盗女贼竟能隐身作案？
+    
+    神奇海螺团队成为网易云音乐第一批受邀电台开通了网易云音乐电台打赏功能，喜欢我们的电台可以直接在网易云音乐进行打赏，同时继续保留原支付宝赞助账户，您可以选择小额赞助我们团队，让我们能够持续做出更加精品的内容，
+    感谢神奇海螺团队的幕后人员:
+    台本:维拉德,二岁半 
+    后期:洛克
+    `,
+    url: config.baseUrl+'/70.mp3', // link to the item
+    categories: ['Comedy'], // optional - array of item categories
+    author: 'scuinfo和零壹广播剧社出品', // optional - defaults to feed author property
+    date: 'Apr 22, 2018', // a format that js Date can parse.
+    lat: 30.67, //optional latitude field for GeoRSS
+    long: 104.06, //optional longitude field for GeoRSS
+    itunesAuthor: 'scuinfo和零壹广播剧社出品',
+    itunesExplicit: false,
+    enclosure : {url:config.baseUrl+'/70.mp3', file:'./public/fm/70.mp3'}, // optional enclosure
+    itunesSubtitle: '别人家的男朋友，从来没让我失望过。',
+    itunesSummary: ` 神奇海螺第七季第5期来了！本期你将会听到:
+
+    转专业后的他们究竟过的怎么样？
+    面膜补水效果败给男室友后该如何应对？
+    圈存机故障后食堂该不该免费？
+    关于健身的那点事儿
+    为什么我的七大姑八大姨还不帮我相亲？
+    为什么我又瘦又好看三观又正还没有男朋友？
+    关于体测预约和抢课的难易程度分析
+    别人家的男朋友，从来没让我失望过。
+    苏州高校神秘失窃，夜盗女贼竟能隐身作案？
+
+    神奇海螺团队成为网易云音乐第一批受邀电台开通了网易云音乐电台打赏功能，喜欢我们的电台可以直接在网易云音乐进行打赏，同时继续保留原支付宝赞助账户，您可以选择小额赞助我们团队，让我们能够持续做出更加精品的内容，
+    感谢神奇海螺团队的幕后人员:
+    台本:维拉德,二岁半 
+    后期:洛克
+`,
+    itunesDuration: 1538,
+    itunesKeywords: ['男朋友','四川大学','川大']
+});
+
+feed.item({
+    title:  '人生三问：脱单了吗？胖了吗？头发秃了吗？',
+    description: ` 神奇海螺第七季第6期来了！本期你将会听到:
+
+    盼望着，盼望着，儿童节来了！
+    川大图书馆帅哥出没区域大揭秘！
+    如何看待学校理发店tony老师的业务水平？
+    你做过的最有趣的梦是什么？
+    开着空调窝在被窝里是一种怎样的体验？
+    人生三问：脱单了吗？胖了吗？头发秃了吗？
+    如何看待自己的女朋友当着自己面给男明星表白？
+
+    
+    神奇海螺团队成为网易云音乐第一批受邀电台开通了网易云音乐电台打赏功能，喜欢我们的电台可以直接在网易云音乐进行打赏，同时继续保留原支付宝赞助账户，您可以选择小额赞助我们团队，让我们能够持续做出更加精品的内容，
+    感谢神奇海螺团队的幕后人员:
+    台本:维拉德,二岁半 
+    后期:洛克
+    `,
+    url: config.baseUrl+'/71.mp3', // link to the item
+    categories: ['Comedy'], // optional - array of item categories
+    author: 'scuinfo和零壹广播剧社出品', // optional - defaults to feed author property
+    date: 'May 7, 2018', // a format that js Date can parse.
+    lat: 30.67, //optional latitude field for GeoRSS
+    long: 104.06, //optional longitude field for GeoRSS
+    itunesAuthor: 'scuinfo和零壹广播剧社出品',
+    itunesExplicit: false,
+    enclosure : {url:config.baseUrl+'/71.mp3', file:'./public/fm/71.mp3'}, // optional enclosure
+    itunesSubtitle: '人生三问：脱单了吗？胖了吗？头发秃了吗？',
+    itunesSummary: ` 神奇海螺第七季第6期来了！本期你将会听到:
+
+    盼望着，盼望着，儿童节来了！
+    川大图书馆帅哥出没区域大揭秘！
+    如何看待学校理发店tony老师的业务水平？
+    你做过的最有趣的梦是什么？
+    开着空调窝在被窝里是一种怎样的体验？
+    人生三问：脱单了吗？胖了吗？头发秃了吗？
+    如何看待自己的女朋友当着自己面给男明星表白？
+
+
+    神奇海螺团队成为网易云音乐第一批受邀电台开通了网易云音乐电台打赏功能，喜欢我们的电台可以直接在网易云音乐进行打赏，同时继续保留原支付宝赞助账户，您可以选择小额赞助我们团队，让我们能够持续做出更加精品的内容，
+    感谢神奇海螺团队的幕后人员:
+    台本:维拉德,二岁半 
+    后期:洛克
+`,
+    itunesDuration: 1538,
+    itunesKeywords: ['秃头','四川大学','川大']
+});
+
 // cache the xml to send to clients
 var xml = feed.xml();
 
