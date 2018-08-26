@@ -3397,6 +3397,77 @@ promises.push(mp3Duration(filePath).then(data => {
 
 /** end */
 
+/* start */
+fileName = '75';
+title = '川大首档体育竞演养成类真人秀《体测502》开播';
+desc = `神奇海螺第七季第10期来了！本期你将会听到:
+
+川大首档体育竞演养成类真人秀《体测502》开播
+如果没有导师的话，我的论文早就...
+终于快要做好复习的准备了！
+三长一短选什么？
+凭本事单的身，为什么要抱抱？
+“滴滴拼伞”活动规则简介
+为了追星你都做过什么疯狂的事?
+火锅店店主的一丝丝危机感
+
+神奇海螺团队成为网易云音乐第一批受邀电台开通了网易云音乐电台打赏功能，喜欢我们的电台可以直接在网易云音乐进行打赏，同时继续保留原支付宝赞助账户，您可以选择小额赞助我们团队，让我们能够持续做出更加精品的内容，
+感谢神奇海螺团队的幕后人员:
+台本:维拉德,二岁半 
+后期:雪饼
+`;
+date = 'Jun 3, 2018';
+filePath = './public/fm/' + fileName + '.mp3';
+
+promises.push(mp3Duration(filePath).then(data => {
+  let second = Math.floor(data);
+  let options = {
+    title,
+    desc,
+    fileName,
+    filePath,
+    second
+  }
+  let item = makeItem(options);
+  feed.item(item);
+}))
+
+/* start */
+fileName = '76';
+title = '你怎么又在玩手机？';
+desc = `神奇海螺第七季暑期特辑来了！本期你将会听到:
+
+想象一下江安留校党的伙食...
+隔壁家的二狗都娶媳妇了！
+海螺全制作组潜伏了一个月原来是为了这个...
+当代肥宅的快乐暑期生活
+留校党中有那么一群实验狗...
+考研党是如何欢度暑假的？
+
+神奇海螺团队成为网易云音乐第一批受邀电台开通了网易云音乐电台打赏功能，喜欢我们的电台可以直接在网易云音乐进行打赏，同时继续保留原支付宝赞助账户，您可以选择小额赞助我们团队，让我们能够持续做出更加精品的内容，
+感谢神奇海螺团队的幕后人员:
+台本:维拉德,二岁半 
+后期:雪饼
+`;
+date = 'Aug 26, 2018';
+filePath = './public/fm/' + fileName + '.mp3';
+
+promises.push(mp3Duration(filePath).then(data => {
+  let second = Math.floor(data);
+  let options = {
+    title,
+    desc,
+    fileName,
+    filePath,
+    second
+  }
+  let item = makeItem(options);
+  feed.item(item);
+}))
+
+
+
+
 function makeItem(options) {
   let {title, desc, fileName, filePath, second} = options;
   return {
