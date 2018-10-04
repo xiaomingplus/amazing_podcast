@@ -3466,6 +3466,79 @@ promises.push(mp3Duration(filePath).then(data => {
 }))
 
 
+/* start */
+fileName = '77';
+title = '如何才能找到三观合得来，还能陪我玩黑魂的富二代？';
+desc = `神奇海螺第八季第一期来了！本期你将会听到:
+
+在校医院里拉双眼皮是种什么样的体验？
+当室友坦白自己是双性恋之后，寝室的氛围突然...
+如何才能找到三观合得来，还能陪我玩黑魂的富二代？
+当香水和福尔马林混合在一起之后…
+为什么猛禽不敢进广东人的屋子？
+华联超市的蜜汁二倍秤
+异地恋的3个小故事
+
+神奇海螺团队成为网易云音乐第一批受邀电台开通了网易云音乐电台打赏功能，喜欢我们的电台可以直接在网易云音乐进行打赏，同时继续保留原支付宝赞助账户，您可以选择小额赞助我们团队，让我们能够持续做出更加精品的内容，
+感谢神奇海螺团队的幕后人员:
+台本:北阳，二岁半 
+后期:雪饼
+`;
+date = 'Sep 25, 2018';
+filePath = './public/fm/' + fileName + '.mp3';
+
+promises.push(mp3Duration(filePath).then(data => {
+  let second = Math.floor(data);
+  let options = {
+    title,
+    desc,
+    fileName,
+    filePath,
+    second
+  }
+  let item = makeItem(options);
+  feed.item(item);
+}))
+
+/**end */
+
+/* start */
+fileName = '78';
+title = '今天我们一起聊聊女性安全问题';
+desc = `神奇海螺第八季第二期来了！本期你将会听到:
+
+今天我们一起聊聊女性安全问题
+真正入住江安东园新寝室的研究生对新寝室的看法
+新版教务系统到底好用吗？
+如何委婉的提醒室友他的嘴真的很臭？
+打跆拳道的小姐姐为什么盯着我的画板许久？
+如何看待scuinfo近期的走向？
+为什么保研成功之后就很想谈恋爱？
+英国13岁中学生发明变色安全套
+
+神奇海螺团队成为网易云音乐第一批受邀电台开通了网易云音乐电台打赏功能，喜欢我们的电台可以直接在网易云音乐进行打赏，同时继续保留原支付宝赞助账户，您可以选择小额赞助我们团队，让我们能够持续做出更加精品的内容，
+感谢神奇海螺团队的幕后人员:
+台本:北阳，二岁半 
+后期:雪饼
+`;
+date = 'Oct 3, 2018';
+filePath = './public/fm/' + fileName + '.mp3';
+
+promises.push(mp3Duration(filePath).then(data => {
+  let second = Math.floor(data);
+  let options = {
+    title,
+    desc,
+    fileName,
+    filePath,
+    second
+  }
+  let item = makeItem(options);
+  feed.item(item);
+}))
+
+/**end */
+
 
 
 function makeItem(options) {
