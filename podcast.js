@@ -3578,6 +3578,45 @@ promises.push(mp3Duration(filePath).then(data => {
 
 /**end */
 
+
+/* start */
+fileName = '80';
+title = '如何克服想谈恋爱，不想一个人的想法？';
+desc = `神奇海螺第八季第4期来了！本期你将会听到:
+
+如何克服想谈恋爱，不想一个人的想法？
+这几位恋爱亲身经历者畅谈自己不谈恋爱之后发生的几件事
+没错，今年所有的法定节假日都已经过完了！
+这几件事让川大同学永生难忘...
+为什么年年都有乱停车的同学？
+如何优雅的在川大准备考研？
+当川大同学不小心摔了一跤之后..
+
+下期话题：“当一个人来到异地他乡时是什么感受”
+
+神奇海螺团队成为网易云音乐第一批受邀电台开通了网易云音乐电台打赏功能，喜欢我们的电台可以直接在网易云音乐进行打赏，同时继续保留原支付宝赞助账户，您可以选择小额赞助我们团队，让我们能够持续做出更加精品的内容，
+感谢神奇海螺团队的幕后人员:
+台本:北阳，二岁半，北北，丹丹
+后期:雪饼
+`;
+date = 'Oct 22, 2018';
+filePath = './public/fm/' + fileName + '.mp3';
+
+promises.push(mp3Duration(filePath).then(data => {
+  let second = Math.floor(data);
+  let options = {
+    title,
+    desc,
+    fileName,
+    filePath,
+    second
+  }
+  let item = makeItem(options);
+  feed.item(item);
+}))
+
+/**end */
+
 function makeItem(options) {
   let {title, desc, fileName, filePath, second} = options;
   return {
