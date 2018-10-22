@@ -3539,7 +3539,44 @@ promises.push(mp3Duration(filePath).then(data => {
 
 /**end */
 
+/* start */
+fileName = '79';
+title = '如何优雅的催同学还钱？';
+desc = `神奇海螺第八季第三期来了！本期你将会听到:
 
+如何优雅的催同学还钱？
+成都过冬攻略
+又到了一年一度的毕业生图像采集了
+神仙是怎么过国庆的？
+新开的江安东园食堂到底怎么样？
+面对腿骨折我该怎么办？
+18级的同学喜迎每天强制晨读和下地干活
+中国锦鲤之争
+
+下期话题：“此生难忘的非酋/欧皇经历”
+
+神奇海螺团队成为网易云音乐第一批受邀电台开通了网易云音乐电台打赏功能，喜欢我们的电台可以直接在网易云音乐进行打赏，同时继续保留原支付宝赞助账户，您可以选择小额赞助我们团队，让我们能够持续做出更加精品的内容，
+感谢神奇海螺团队的幕后人员:
+台本:北阳，二岁半 
+后期:雪饼
+`;
+date = 'Oct 14, 2018';
+filePath = './public/fm/' + fileName + '.mp3';
+
+promises.push(mp3Duration(filePath).then(data => {
+  let second = Math.floor(data);
+  let options = {
+    title,
+    desc,
+    fileName,
+    filePath,
+    second
+  }
+  let item = makeItem(options);
+  feed.item(item);
+}))
+
+/**end */
 
 function makeItem(options) {
   let {title, desc, fileName, filePath, second} = options;
